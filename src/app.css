@@ -15,7 +15,7 @@ h4 {
 }
 
 .congrats {
-    @apply font-bold text-5xl;
+    @apply font-bold text-3xl;
 }
 
 html {
