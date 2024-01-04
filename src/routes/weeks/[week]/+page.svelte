@@ -33,21 +33,9 @@
         if (newi != i) {
             answer = "";
             i = newi;
-        } /* else if ((answer == "9701.999975" || answer == "9899.26") && i == 0) {
-            alert(
-                "HAHAHAHAHAHAHAHAHAHA NO (the beta tester did expect this answer so you're getting this cheeky message kekw)",
-            );
-        } else if (answer == "") {
-            alert("try something bro");
-        } else if (!/^-?\d+(\.\d+)?$/.test(answer) && i != 3) {
-            // -
-            // ? = optionally
-            // \d+ means any amount of digits
-            alert("my favourite number is " + answer);
-            timer = tweened(20);
-        } */ else {
+        } else {
             alert(message);
-            timer = tweened(1);
+            timer = tweened(20);
         }
     }
     let answer = "";
