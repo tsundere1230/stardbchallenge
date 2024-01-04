@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    @apply font-bold underline text-5xl p-12;
+}
+
+h2 {
+    @apply font-bold underline text-2xl;
+}
+
+h4 {
+    @apply text-lg;
+}
+
+.congrats {
+    @apply font-bold text-5xl;
+}
+
+html {
+    @apply bg-[#0f0a1f] text-[#DCDEFC] md:m-36 sm:m-12 m-4;
+}
+
+input {
+    @apply bg-[#7C79E8] text-[#DCDEFC] placeholder:text-[#A9ADF3] p-2;
+}
+
+p {
+    @apply my-4;
+}
+
+li {
+    @apply pl-4;
+}
+
+button {
+    @apply text-2xl font-bold mt-4 p-1 pl-14;
+}
+
+.list {
+    @apply mb-60;
+}
