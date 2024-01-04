@@ -7,7 +7,6 @@ let answers = ["9702", "24000", "88050", "cryptic"];
 
 let questions = [Question1, Question2, Question3, Question4];
 
-let week1 = {questions, answers};
-
+let week1 = { questions, answers };
 
 export default week1;

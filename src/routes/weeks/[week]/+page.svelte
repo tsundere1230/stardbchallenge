@@ -1,7 +1,7 @@
 <script>
     import weeks from "$lib/weeks";
     import { tweened } from "svelte/motion";
-    import {page} from "$app/stores";
+    import { page } from "$app/stores";
     let week = parseInt($page.params.week);
 
     let timer = tweened(0);
@@ -12,6 +12,7 @@
 
     let i = 0;
 
+    /** @param { KeyboardEvent } e */
     async function enter(e) {
         if (e.key == "Enter") {
             validate();

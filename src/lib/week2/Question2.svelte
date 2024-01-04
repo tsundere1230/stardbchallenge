@@ -1,5 +1,5 @@
 <script>
-    import Katex from "svelte-katex";
+    import { math } from "mathlifier";
 </script>
 
 <h1>Star DB Challenge Season 2 Week 2</h1>
@@ -28,7 +28,10 @@
 </p>
 
 <p>
-    Your password is <Katex>Length_{"{Line}"}</Katex> in feet.<br/><br/>Please round your
-    answer in meters to the nearest 10 first before converting to feet.<br/>Then, round
-    your final answer to the nearest 10 as well.
+    Your password is {@html math("Length_{Line}")} in feet.
+    <br /><br />
+    Please round your answer in meters to the nearest 10 first before converting
+    to feet.
+    <br />
+    Then, round your final answer to the nearest 10 as well.
 </p>
