@@ -9,7 +9,7 @@
 <p>
     Suppose I can freely choose my substats, and I can build Himeko to have a
     crit rate of <br />
-    {@html math("\\frac{[Yu Qingtu]}{[Herta]-[Screwllum]+[Polka]} + x)\\%")} and
+    {@html math("(\\frac{[Yu Qingtu]}{[Herta]-[Screwllum]+[Polka]} + x)\\%")} and
     a crit damage of {@html math("(IPC_{Preservation, LimitedPower} - 2x)\\%")}
     , where {@html math("x \\in \\mathbb{R}\\setminus\\mathbb{R}^-")}.
 </p>
