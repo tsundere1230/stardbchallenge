@@ -10,12 +10,6 @@ jobs:
     steps:
       - name: Checkout Source Code
         uses: actions/checkout@v2
-      
-      - name: Check env
-        run: |
-          echo ${{ secrets.HOST }}
-          echo ${{ secrets.USERNAME }}
-          echo ${{ secrets.PASSWORD }}
 
       - name: Install And Build
         run: |
