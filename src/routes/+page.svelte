@@ -4,8 +4,8 @@
 
 <div>
     <h1>StarDB Challenges - Season 2</h1>
-    {#each weeks as week, i }
-        <a href="/challenge/weeks/{i+1}" class="hof">Week {i+1}</a><br />
+    {#each weeks as _, i}
+        <a href="/challenge/weeks/{i + 1}" class="hof">Week {i + 1}</a><br />
     {/each}
 </div>
 

@@ -1,4 +1,4 @@
-import weeks from "$lib/weeks.js";
+import weeks from "$lib/server/weeks";
 
 /** @type {import('./$types').RequestHandler} */
 export async function POST({ request }) {
