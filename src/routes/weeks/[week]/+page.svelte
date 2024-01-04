@@ -2,7 +2,7 @@
     import weeks from "$lib/weeks";
     import { tweened } from "svelte/motion";
     import { page } from "$app/stores";
-    let week = parseInt($page.params.week);
+    let week = parseInt($page.params.week) -1;
 
     let timer = tweened(0);
 
@@ -28,12 +28,12 @@
             body: JSON.stringify({ week, i, answer }),
         });
 
-        let newi = await response.json();
+        let {newi, message} = await response.json();
 
         if (newi != i) {
             answer = "";
             i = newi;
-        } else if ((answer == "9701.999975" || answer == "9899.26") && i == 0) {
+        } /* else if ((answer == "9701.999975" || answer == "9899.26") && i == 0) {
             alert(
                 "HAHAHAHAHAHAHAHAHAHA NO (the beta tester did expect this answer so you're getting this cheeky message kekw)",
             );
@@ -45,9 +45,9 @@
             // \d+ means any amount of digits
             alert("my favourite number is " + answer);
             timer = tweened(20);
-        } else {
-            alert("omegalul :sobpuddle:");
-            timer = tweened(20);
+        } */ else {
+            alert(message);
+            timer = tweened(1);
         }
     }
     let answer = "";

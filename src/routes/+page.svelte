@@ -4,13 +4,13 @@
 
 <div>
     <h1>StarDB Challenges - Season 2</h1>
-    {#each weeks as week, i}
-        <a href="/challenge/weeks/{i}" class="hof">Week {i}</a><br />
+    {#each weeks as week, i }
+        <a href="/challenge/weeks/{i+1}" class="hof">Week {i+1}</a><br />
     {/each}
 </div>
 
 <div>
-    <h2>StarDB Challenges - Season 1 Hall Of Fame</h2>
+    <h2 class="mainpage">StarDB Challenges - Season 1 Hall Of Fame</h2>
     <pre class="hof">
             |   No.  |      Challengers <br />
             -----------------------------------------<br />
@@ -38,7 +38,7 @@
                        CakeAndPals, Gnomechewer, Flint, Jazzyjazz, 星跡(seto), Elyx, TSU_papa, MissCalculations, Arlen <br
         />      
         </pre>
-    <h2>
+    <h2 class="mainpage">
         Special thanks to the following people for making Season 1 challenges:<br
         />
     </h2>

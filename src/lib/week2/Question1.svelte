@@ -14,12 +14,12 @@
 
 <p>
     Radius: {@html math(
-        ">PlayableChars + TeleportPoints_{HertaSpaceStation})meters",
-    )}
+        "PlayableChars + TeleportPoints_{HertaSpaceStation})" ,
+    )} meters
 </p>
 
 <p>
-    Argument: {@html math(">TrailBlazePower_{Max} + sqrt[3]{TBPReq_{Lv64-65}}")}
+    Argument: {@html math("TrailBlazePower_{Max} + \\sqrt[3]{TBPReq_{Lv64-65}}")}
     in degrees
 </p>
 
