@@ -15,6 +15,7 @@ jobs:
         run: |
           npm i
           npm run build
+          mv node_modules build/
           echo '{"type": "module"}' > build/package.json
           mv build stardbchallenge-new
 
