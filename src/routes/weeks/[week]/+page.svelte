@@ -69,6 +69,6 @@
     <button on:click={validate}> submit </button>
 {:else}
     <span class="congrats">
-        {weeks[week].congrats}
+        {@html weeks[week].congrats}
     </span>
 {/if}
