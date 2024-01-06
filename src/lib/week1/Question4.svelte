@@ -9,6 +9,6 @@
 <h4><b>C go 3</b><br /></h4>
 
 <p>
-    Currently Fu Xuan is angry with Qingque, because she escaped from work
+    Currently Fu Xuan is angry at Qingque, because she's escaped from work
     again. This is the end for her lying lazy arc.
 </p>
