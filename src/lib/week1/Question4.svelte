@@ -6,7 +6,7 @@
     :) )<br /><br />
 </h4>
 
-<h4><b>C go 3</b><br /></h4>
+<h4>From C go 3<br /></h4>
 
 <p>
     Currently Fu Xuan is angry at Qingque, because she's escaped from work
