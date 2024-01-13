@@ -4,7 +4,7 @@
 
 <h1>Star DB Challenge Season 2 Week 2</h1>
 
-<h2>Part 2</h2>
+<h2>Part 2/2</h2>
 
 <p>
     Please now leave the Seclusion Zone go to a map that fulfills the following
@@ -12,19 +12,24 @@
 </p>
 <ul>
     <li>
-        There exist three (almost) co-linear teleport points [this is "The
-        Line"].
+        There exist three (almost) co-linear SPACE ANCHORS [this is "The Line"].
     </li>
-    <li>At most one point of interest that you can click 'navigate' on.</li>
     <li>
-        This does not include the exit markers that would allow you to be sent
-        to a different area.
+        The space anchors must be on the same floor of the map.
+    </li>
+    <li>
+        On the map, there is EXACTLY one point of interest that you can click 'Navigate' on.
+        This does not have to be on "The Line".
+    </li>
+    <li>
+        The exit markers that would allow you to be sent to a different area does not
+        count as a point of interest.
     </li>
 </ul>
 
 <p>
     Your task is now to measure the distance between the two teleport points on
-    the ends of the line.
+    the ends of The Line.
 </p>
 
 <p>
@@ -34,4 +39,8 @@
     to feet.
     <br />
     Then, round your final answer to the nearest 10 as well.
+</p>
+
+<p>
+    There is no validation for this question. :sobpuddle:
 </p>
