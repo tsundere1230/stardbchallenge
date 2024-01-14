@@ -1,16 +1,19 @@
 <script>
-    import weeks from "$lib/weeks";
+    export let data;
+
     import { tweened } from "svelte/motion";
     import { page } from "$app/stores";
-    let week = parseInt($page.params.week) - 1;
 
     let timer = tweened(0);
+    let week = parseInt($page.params.week) - 1;
+    let i = 0;
+    let answer = "";
+    let end = false;
+    let html = data.html;
 
     setInterval(() => {
         if ($timer > 0) $timer--;
     }, 1000);
-
-    let i = 0;
 
     /** @param { KeyboardEvent } e */
     async function enter(e) {
@@ -20,29 +23,32 @@
     }
 
     async function validate() {
+        answer = "";
+
         if ($timer > 0) {
             return;
         }
+
         let response = await fetch("/challenge/verify", {
             method: "POST",
             body: JSON.stringify({ week, i, answer }),
         });
 
-        let { newi, message } = await response.json();
+        let { newi, message, newHtml, newEnd } = await response.json();
 
         if (newi != i) {
-            answer = "";
             i = newi;
+            html = newHtml;
+            end = newEnd;
         } else {
             alert(message);
             timer = tweened(20);
         }
     }
-    let answer = "";
 </script>
 
-{#if i < weeks[week].questions.length}
-    <svelte:component this={weeks[week].questions[i]} />
+{@html html.html}
+{#if !end}
     {#if $timer > 0}
         <p>Come back in {$timer}s</p>
     {/if}
@@ -53,10 +59,4 @@
         on:keydown={enter}
     />
     <br />
-
-    <button on:click={validate}> submit </button>
-{:else}
-    <span class="congrats">
-        {@html weeks[week].congrats}
-    </span>
 {/if}

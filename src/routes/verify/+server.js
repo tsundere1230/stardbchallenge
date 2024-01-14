@@ -13,5 +13,9 @@ export async function POST({ request }) {
         message = weeks[week].hints[i][answer];
     }
 
-    return new Response(String(JSON.stringify({ newi, message })));
+    // @ts-ignore
+    let newHtml = weeks[week].components[newi].render();
+    let newEnd = newi == weeks[week].components.length - 1;
+
+    return new Response(String(JSON.stringify({ newi, message, newHtml, newEnd })));
 }

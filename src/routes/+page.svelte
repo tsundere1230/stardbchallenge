@@ -1,10 +1,10 @@
 <script>
-    import weeks from "$lib/weeks";
+    export let data;
 </script>
 
 <div>
     <h1>StarDB Challenges - Season 2</h1>
-    {#each weeks as _, i}
+    {#each { length: data.length } as _, i}
         <a href="/challenge/weeks/{i + 1}" class="hof">Week {i + 1}</a><br />
     {/each}
 </div>
