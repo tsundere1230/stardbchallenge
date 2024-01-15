@@ -23,7 +23,7 @@
             |   12   | Carefree Phoenix, Twengdi <br />
             |   11   | Jinwu Loi, rzd <br />
             |   10   | Czerwony, SikeGirls, Hee Ho, Necro <br />
-            |   9    | Mikah, Rei, SquareRootOf-1, go study <br />
+            |   9    | Mikah, Rei, SquareRootOf-1, Kaju <br />
             |   8    | xingped, riorio805, unknowngod, Ethan Thomas, Keevin, tsuntsun, kama- <br
         />
             |   7    | zorus, Herolife, ikun, Rell, Mad Scientist, Solleks, matt_243, busted, Shodan, Meowdoleon, Megamaple <br
