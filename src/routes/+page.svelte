@@ -6,7 +6,7 @@
     <h1>StarDB Challenges - Season 2</h1>
     {#each { length: data.length } as _, i}
         <a href="/challenge/weeks/{i + 1}" class="hof">Week {i + 1}</a>
-        <a href="/challenge/answers/{i + 1}" class="hof">Week {i + 1}</a><br />
+        <a href="/challenge/answers/{i + 1}" class="hof">Week {i + 1} Answers</a><br />
     {/each}
 </div>
 
