@@ -4,7 +4,7 @@
 
 <h1>Star DB Challenge Season 2 Week 2</h1>
 
-<h2>Part 2/2</h2>
+<h2>Part 2/3</h2>
 
 <p>
     Please now leave the Seclusion Zone go to a map that fulfills the following

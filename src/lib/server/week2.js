@@ -11,10 +11,14 @@ const answers = [/emergency/i, /540/, /spotlights/i];
 const hints = [
     [
         { r: /65/, s: "Correct Radius" },
-        { r: /270/, s: "Correct Argument" },
+        { r: /270/, s: "Correct Angle" },
     ],
-    [],
-    [{ r: /even/, s: "Very good, but that's just the first step :smug:" }],
+    [
+        { r: /(52[5-9]|5[34][0-9]|55[0-5])/, s: "Correct, the answer is 540."}
+    ],
+    [
+        { r: /even/i, s: "Very good, but that's just the first step :smug:" }
+    ],
 ];
 
 export default { components, answers, hints };

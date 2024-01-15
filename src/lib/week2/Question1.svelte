@@ -4,7 +4,7 @@
 
 <h1>Star DB Challenge: Season 2 Week 2</h1>
 
-<h2>Part 1/2</h2>
+<h2>Part 1/3</h2>
 
 <p>
     Hi challengers! Week 2 will be two short geo-location challenges! This will
