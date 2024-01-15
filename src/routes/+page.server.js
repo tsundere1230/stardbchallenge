@@ -1,4 +1,4 @@
-import weeks from '$lib/server/weeks';
+import weeks from "$lib/server/weeks";
 
 /** @type {import('./$types').PageServerLoad} */
 export async function load() {
