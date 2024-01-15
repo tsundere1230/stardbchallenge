@@ -5,7 +5,7 @@ import Question4 from "$lib/week1/Question4.svelte";
 import Congrats from "$lib/week1/Congrats.svelte";
 
 const components = [Question1, Question2, Question3, Question4, Congrats];
-const answers = ["9702", "24000", "88050", "cryptic"];
+const answers = [/9702/, /24000/, /88050/, /cryptic/i];
 
 /** @type {  {r: RegExp,  s: string}[][]} */
 const hints = [

@@ -7,7 +7,7 @@ export async function POST({ request }) {
     let newi = i;
     let message = "omegalul :sobpuddle:";
 
-    if (weeks[week].answers[i] == answer.toLowerCase()) {
+    if (weeks[week].answers[i].test(answer)) {
         newi += 1;
     } else {
         for (let hint of weeks[week].hints[i]) {
