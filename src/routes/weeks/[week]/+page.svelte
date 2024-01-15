@@ -23,8 +23,6 @@
     }
 
     async function validate() {
-        answer = "";
-
         if ($timer > 0) {
             return;
         }
@@ -44,6 +42,8 @@
             alert(message);
             timer = tweened(20);
         }
+
+        answer = "";
     }
 </script>
 
