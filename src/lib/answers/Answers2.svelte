@@ -61,9 +61,10 @@
 
 <img src={cloudfordq2} />
 
-<p class = "answerkey"><br>
-    Now you can either assume it's a right-angled triangle or use the cosine rule to obtain
-    an answer of approximately {@html math("160-170")} meters.
-    Converting to feet and you'll get {@html math("540")} ft., and we gave a 
-    {@html math("\\pm15")} ft leeway in both directions. 
+<p class="answerkey">
+    <br />
+    Now you can either assume it's a right-angled triangle or use the cosine rule
+    to obtain an answer of approximately {@html math("160-170")} meters. Converting
+    to feet and you'll get {@html math("540")} ft., and we gave a
+    {@html math("\\pm15")} ft leeway in both directions.
 </p>

@@ -35,6 +35,6 @@
 </p>
 
 <p>
-    There is no validation for this question :sobpuddle:
-    (but there is a small range of values accepted).
+    There is no validation for this question :sobpuddle: (but there is a small
+    range of values accepted).
 </p>
