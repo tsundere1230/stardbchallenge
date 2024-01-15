@@ -7,8 +7,8 @@
 <h2>Part 1/2</h2>
 
 <p>
-    Hi challengers! Week 2 will be two short geo-location challenges! This will involve opening
-    HSR and finding points on the map, just like in Season 1.
+    Hi challengers! Week 2 will be two short geo-location challenges! This will
+    involve opening HSR and finding points on the map, just like in Season 1.
 </p>
 
 <p>
@@ -19,7 +19,7 @@
 
 <p>
     Radius: {@html math(
-        "PlayableChars + TeleportablePoints_{HertaSpaceStation})" ,
+        "PlayableChars + TeleportablePoints_{HertaSpaceStation})",
     )} meters.
 </p>
 
@@ -34,11 +34,9 @@
 </p>
 
 <p>
-    You will be able to validate the radius as well as the angle, but round
-    them to the nearest 5 before you validate. (E.g. if you think radius is 2, then just enter 2
-    into the submission box.)
+    You will be able to validate the radius as well as the angle, but round them
+    to the nearest 5 before you validate. (E.g. if you think radius is 2, then
+    just enter 2 into the submission box.)
 </p>
 
-<p>
-    NB: TeleportablePoints means anything you can click teleport on.
-</p>
+<p>NB: TeleportablePoints means anything you can click teleport on.</p>

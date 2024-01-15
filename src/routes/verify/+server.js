@@ -7,15 +7,22 @@ export async function POST({ request }) {
     let newi = i;
     let message = "omegalul :sobpuddle:";
 
-    if (weeks[week].answers[i] == answer.toLowerCase()) {
+    if (weeks[week].answers[i].test(answer)) {
         newi += 1;
-    } else if (weeks[week].hints[i][answer]) {
-        message = weeks[week].hints[i][answer];
+    } else {
+        for (let hint of weeks[week].hints[i]) {
+            if (hint.r.test(answer)) {
+                message = hint.s;
+                break;
+            }
+        }
     }
 
     // @ts-ignore
     let newHtml = weeks[week].components[newi].render();
     let newEnd = newi == weeks[week].components.length - 1;
 
-    return new Response(String(JSON.stringify({ newi, message, newHtml, newEnd })));
+    return new Response(
+        String(JSON.stringify({ newi, message, newHtml, newEnd }))
+    );
 }

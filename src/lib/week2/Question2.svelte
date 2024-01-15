@@ -14,16 +14,14 @@
     <li>
         There exist three (almost) co-linear SPACE ANCHORS [this is "The Line"].
     </li>
+    <li>The space anchors must be on the same floor of the map.</li>
     <li>
-        The space anchors must be on the same floor of the map.
+        On the map, there is EXACTLY one point of interest that you can click
+        'Navigate' on. This does not have to be on "The Line".
     </li>
     <li>
-        On the map, there is EXACTLY one point of interest that you can click 'Navigate' on.
-        This does not have to be on "The Line".
-    </li>
-    <li>
-        The exit markers that would allow you to be sent to a different area does not
-        count as a point of interest.
+        The exit markers that would allow you to be sent to a different area
+        does not count as a point of interest.
     </li>
 </ul>
 
