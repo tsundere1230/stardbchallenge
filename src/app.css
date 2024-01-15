@@ -45,3 +45,7 @@ button {
 .mainpage {
     @apply pl-12 my-8;
 }
+
+.answerkey {
+    @apply ml-20;
+}
