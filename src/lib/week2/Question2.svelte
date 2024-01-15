@@ -34,13 +34,9 @@
 
 <p>
     Your password is {@html math("Length_{Line}")} in feet.
-    <br /><br />
-    Please round your answer in meters to the nearest 10 first before converting
-    to feet.
-    <br />
-    Then, round your final answer to the nearest 10 as well.
 </p>
 
 <p>
-    There is no validation for this question. :sobpuddle:
+    There is no validation for this question :sobpuddle:
+    (but there is a small range of values accepted).
 </p>
