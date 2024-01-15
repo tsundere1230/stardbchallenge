@@ -10,7 +10,7 @@ const answers = [/emergency/i, /540/, /spotlights/i];
 /** @type {  {r: RegExp,  s: string}[][]} */
 const hints = [
     [
-        { r: /65/, s: "Correct Radius" },
+        { r: /6[34]/, s: "Correct Radius" },
         { r: /270/, s: "Correct Angle" },
     ],
     [

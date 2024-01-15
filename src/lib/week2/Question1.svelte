@@ -35,7 +35,7 @@
 
 <p>
     You will be able to validate the radius as well as the angle, but round them
-    to the nearest 5 before you validate. (E.g. if you think radius is 2, then
+    to the nearest integer before you validate. (E.g. if you think radius is 2, then
     just enter 2 into the submission box.)
 </p>
 

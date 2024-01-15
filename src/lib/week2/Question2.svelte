@@ -31,7 +31,7 @@
 </p>
 
 <p>
-    Your password is {@html math("Length_{Line}")} in feet.
+    Your password is {@html math("Length_{Line}")} in feet (round it to an integer).
 </p>
 
 <p>
