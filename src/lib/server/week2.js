@@ -5,7 +5,7 @@ import Congrats from "$lib/week2/Congrats.svelte";
 
 const components = [Question1, Question2, Question3, Congrats];
 
-const answers = ["emergency", "560", "spotlights"];
+const answers = ["emergency", "540", "spotlights"];
 
 /** @type {{ [key: string]: string }[]} */
 const hints = [{ "65": "Correct Radius", "270": "Correct Argument" }, {}, { "even": "Very good, but that's just the first step :smug:" }]

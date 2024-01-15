@@ -54,6 +54,6 @@
 
 <p class = "answerkey"><br>
     Now you can either assume it's a right-angled triangle or use the cosine rule to obtain
-    an answer of approximately {@html math("167.8-172")}meters. Rounding that off to {@html math("170")} and converting to feet,
-    you'll get {@html math("560")} ft.
+    an answer of approximately {@html math("163-167")}meters.
+    Converting to feet and you'll get {@html math("540")} ft.
 </p>
