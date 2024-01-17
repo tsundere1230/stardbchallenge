@@ -13,6 +13,8 @@
         },
         [],
     );
+
+    leaderboard.sort((x, y) => y.completed - x.completed);
 </script>
 
 <div class="space-y-10">
