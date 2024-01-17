@@ -38,89 +38,91 @@
     <div>
         <h2 class="text-2xl mb-4">StarDB Challenges - Season 1 Hall Of Fame</h2>
         <table>
-            <tr>
+            <tr class="border-b">
                 <th class="text-left text-galaxy_purple-50 px-4"
                     >Completed Challenges</th
                 >
                 <th class="text-left text-galaxy_purple-50 px-4">Challenger</th>
             </tr>
-            <tr>
-                <td class="px-4">20</td>
-                <td class="px-4">Merper, Siune, Ghengooni</td>
+            <tr class="border-b">
+                <td class="px-4 py-2">20</td>
+                <td class="px-4 py-2">Merper, Siune, Ghengooni</td>
             </tr>
-            <tr>
-                <td class="px-4">19</td>
-                <td class="px-4">Lightly, aster</td>
+            <tr class="border-b">
+                <td class="px-4 py-2">19</td>
+                <td class="px-4 py-2">Lightly, aster</td>
             </tr>
-            <tr>
-                <td class="px-4">17</td>
-                <td class="px-4">Dannyyy, Azathoth</td>
+            <tr class="border-b">
+                <td class="px-4 py-2">17</td>
+                <td class="px-4 py-2">Dannyyy, Azathoth</td>
             </tr>
-            <tr>
-                <td class="px-4">16</td>
-                <td class="px-4">Sammy</td>
+            <tr class="border-b">
+                <td class="px-4 py-2">16</td>
+                <td class="px-4 py-2">Sammy</td>
             </tr>
-            <tr>
-                <td class="px-4">15</td>
-                <td class="px-4">Billi, momohugy, Dava, Bambara, ProPPlayer</td>
+            <tr class="border-b">
+                <td class="px-4 py-2">15</td>
+                <td class="px-4 py-2"
+                    >Billi, momohugy, Dava, Bambara, ProPPlayer</td
+                >
             </tr>
-            <tr>
-                <td class="px-4">13</td>
-                <td class="px-4">NickWorth, Chaos, Junebug</td>
+            <tr class="border-b">
+                <td class="px-4 py-2">13</td>
+                <td class="px-4 py-2">NickWorth, Chaos, Junebug</td>
             </tr>
-            <tr>
-                <td class="px-4">12</td>
-                <td class="px-4">Carefree Phoenix, Twengdi</td>
+            <tr class="border-b">
+                <td class="px-4 py-2">12</td>
+                <td class="px-4 py-2">Carefree Phoenix, Twengdi</td>
             </tr>
-            <tr>
-                <td class="px-4">11</td>
-                <td class="px-4">Jinwu Loi, rzd</td>
+            <tr class="border-b">
+                <td class="px-4 py-2">11</td>
+                <td class="px-4 py-2">Jinwu Loi, rzd</td>
             </tr>
-            <tr>
-                <td class="px-4">10</td>
-                <td class="px-4">Czerwony, SikeGirls, Hee Ho, Necro</td>
+            <tr class="border-b">
+                <td class="px-4 py-2">10</td>
+                <td class="px-4 py-2">Czerwony, SikeGirls, Hee Ho, Necro</td>
             </tr>
-            <tr>
-                <td class="px-4">9</td>
-                <td class="px-4">Mikah, Rei, SquareRootOf-1, Kaju</td>
+            <tr class="border-b">
+                <td class="px-4 py-2">9</td>
+                <td class="px-4 py-2">Mikah, Rei, SquareRootOf-1, Kaju</td>
             </tr>
-            <tr>
-                <td class="px-4">8</td>
+            <tr class="border-b">
+                <td class="px-4 py-2">8</td>
                 <td class="px-4"
                     >xingped, riorio805, unknowngod, Ethan Thomas, Keevin,
                     tsuntsun, kama-</td
                 >
             </tr>
-            <tr>
-                <td class="px-4">7</td>
+            <tr class="border-b">
+                <td class="px-4 py-2">7</td>
                 <td class="px-4"
                     >zorus, Herolife, ikun, Rell, Mad Scientist, Solleks,
                     matt_243, busted, Shodan, Meowdoleon, Megamaple</td
                 >
             </tr>
-            <tr>
-                <td class="px-4">6</td>
+            <tr class="border-b">
+                <td class="px-4 py-2">6</td>
                 <td class="px-4"
                     >Manhell, crab, Merry, karin, STartn't, syroforce, Tenkuu,
                     Meyrime, squidstain, Knightofinferno</td
                 >
             </tr>
-            <tr>
-                <td class="px-4">5</td>
+            <tr class="border-b">
+                <td class="px-4 py-2">5</td>
                 <td class="px-4"
                     >Scheiren, emii, vani, Cadence, CJ76, kachcat, Soul,
                     CodeSilver, Menace13, osablack</td
                 >
             </tr>
-            <tr>
-                <td class="px-4">4</td>
+            <tr class="border-b">
+                <td class="px-4 py-2">4</td>
                 <td class="px-4"
                     >White_00, Taigumi, Sakura, vince033, Not-Bob, FxbiFH,
                     Haruhi, Zykei, Paperbag, Beh, bone child, fjfd</td
                 >
             </tr>
-            <tr>
-                <td class="px-4">3</td>
+            <tr class="border-b">
+                <td class="px-4 py-2">3</td>
                 <td class="px-4"
                     >BapHiro, PhantomDrone, Eazyfade, TheTea, Sarlia, Arient,
                     Aki, Vira, POM_POM_ENJOYER CakeAndPals, Gnomechewer, Flint,
@@ -138,5 +140,4 @@
         </h3>
         <p>Maur, Sammy, Julius, Necro, Lightly.</p>
     </div>
-
 </div>

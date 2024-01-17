@@ -22,16 +22,16 @@
         Leaderboard
     </h2>
     <table>
-        <tr>
+        <tr class="border-b">
             <th class="text-left text-galaxy_purple-50 px-4"
                 >Completed Challenges</th
             >
             <th class="text-left text-galaxy_purple-50 px-4">Challenger</th>
         </tr>
         {#each leaderboard as entry}
-            <tr>
-                <td class="px-4">{entry.completed}</td>
-                <td class="px-4">{entry.names.join(", ")}</td>
+            <tr class="border-b">
+                <td class="px-4 py-2">{entry.completed}</td>
+                <td class="px-4 py-2">{entry.names.join(", ")}</td>
             </tr>
         {/each}
     </table>
