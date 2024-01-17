@@ -4,12 +4,11 @@
 
 Tsun: what the hell I came back to fix Kaju's name and there's a new question?? AHHHHH!!!!
 
+<br>
+
 ## Selfcontained
 
-Everyone: Select very peculiar words.
-
-Avoid overreaching lines, that's inattentive...
-
-Each line, an index hides gracefully, weightlessly.
-
+Everyone: Select very peculiar words.<br>
+Avoid overreaching lines, that's inattentive...<br>
+Each line, an index hides gracefully, weightlessly.<br>
 Initially, humbly follow the instructions, subsequently unfastening.

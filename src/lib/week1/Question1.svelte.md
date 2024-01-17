@@ -1,9 +1,7 @@
 # Welcome
 
-Welcome to the Season 2! As I (tsun) am learning the javascript ropes (holy I hate javascript), this week's challenge will be a lot simpler :)
-
-Please make sure all your answers are in decimal, without units. Example: $\frac{3}{8}$ is why is this like this $0.375$.
-
+Welcome to the Season 2! As I (tsun) am learning the javascript ropes (holy I hate javascript), this week's challenge will be a lot simpler :)<br>
+Please make sure all your answers are in decimal, without units. Example: $\frac{3}{8}$ is why is this like this $0.375$.<br>
 If the answer is a percentage, please give it as a decimal. Example: $52.5\%$ is $ 0.525 $.
 
 Alright, that's all you need to know, good luck!

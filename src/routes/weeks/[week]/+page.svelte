@@ -66,12 +66,9 @@
             </div>
         </dialog>
     {/if}
-    <div class="question">
+    <div class="markdown">
         {@html html}
     </div>
-    <!-- <div class="question">
-        <SvelteMarkdown {source} {options} {renderers} />
-    </div> -->
     <div>
         {#if !end}
             {#if $timer > 0}
@@ -88,25 +85,3 @@
         {/if}
     </div>
 </div>
-
-<style lang="postcss">
-    .question :global(h1) {
-        @apply text-2xl font-bold text-galaxy_purple-50;
-    }
-
-    .question :global(h2) {
-        @apply text-xl font-bold text-galaxy_purple-50;
-    }
-
-    .question :global(p) {
-        @apply text-lg my-4;
-    }
-
-    .question :global(ol li) {
-        @apply ml-10 list-decimal;
-    }
-
-    .question :global(ul li) {
-        @apply ml-10 list-disc;
-    }
-</style>
