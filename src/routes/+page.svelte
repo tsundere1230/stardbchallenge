@@ -1,5 +1,22 @@
 <script>
+    import challengers from "$lib/challengers.json";
+
     export let data;
+
+    let leaderboard = challengers.reduce(
+        (/** @type {{completed: number, names: string[]}[]}*/ curr, val) => {
+            let group = curr.find((g) => g.completed == val.completed);
+            if (group) {
+                group.names.push(val.name);
+            } else {
+                curr.push({ completed: val.completed, names: [val.name] });
+            }
+            return curr;
+        },
+        [],
+    );
+
+    leaderboard.sort((x, y) => y.completed - x.completed);
 </script>
 
 <div class="space-y-10">
@@ -36,10 +53,28 @@
     </div>
 
     <div>
-        <h2 class="text-2xl mb-4">StarDB Challenges - Season 1 Hall Of Fame</h2>
-        <table>
+        <h2 class="text-2xl mb-4">Leaderboard</h2>
+        <table class="w-full">
             <tr class="border-b">
-                <th class="text-left text-galaxy_purple-50 px-4"
+                <th class="text-left text-galaxy_purple-50 px-4 text-nowrap"
+                    >Completed Challenges</th
+                >
+                <th class="text-left text-galaxy_purple-50 px-4">Challenger</th>
+            </tr>
+            {#each leaderboard as entry}
+                <tr class="border-b">
+                    <td class="px-4 py-2">{entry.completed}</td>
+                    <td class="px-4 py-2">{entry.names.join(", ")}</td>
+                </tr>
+            {/each}
+        </table>
+    </div>
+
+    <div>
+        <h2 class="text-2xl mb-4">StarDB Challenges - Season 1 Hall Of Fame</h2>
+        <table class="w-full">
+            <tr class="border-b">
+                <th class="text-left text-galaxy_purple-50 px-4 text-nowrap"
                     >Completed Challenges</th
                 >
                 <th class="text-left text-galaxy_purple-50 px-4">Challenger</th>
