@@ -14,7 +14,8 @@
     <br />
     There are {@html math("[40]")} or {@html math("[41]")} characters, depending
     if you include Dr. Ratio (but it doesn't matter).<br />
-    There are {@html math("[23]")} teleport points in Herta's Space Station.<br />
+    There are {@html math("[23]")} teleport points in Herta's Space Station.<br
+    />
     Maximum Trailblaze Power is {@html math("[240]")} . <br />
     The EXP requirement to go from Level 64 to 65 is {@html math("[26630]")} . The
     cube root of that is approximately {@html math("[30]")} . <br />

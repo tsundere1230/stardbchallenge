@@ -11,5 +11,7 @@
 {#if week < answers.length}
     <svelte:component this={answers[week]} />
 {:else}
-    <h2>Week 2 answers are not out yet, cheater!! Go away!! :angy:</h2>
+    <h2>
+        Week {$page.params.week} answers are not out yet, cheater!! Go away!! :angy:
+    </h2>
 {/if}

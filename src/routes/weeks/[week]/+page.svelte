@@ -1,19 +1,21 @@
 <script>
-    export let data;
-
     import { tweened } from "svelte/motion";
     import { page } from "$app/stores";
 
-    let timer = tweened(0);
+    export let data;
+
     let week = parseInt($page.params.week) - 1;
+
+    let timer = tweened(0);
+    setInterval(() => {
+        if ($timer > 0) $timer--;
+    }, 1000);
+
     let i = 0;
     let answer = "";
     let end = false;
     let html = data.html;
-
-    setInterval(() => {
-        if ($timer > 0) $timer--;
-    }, 1000);
+    let message = "";
 
     /** @param { KeyboardEvent } e */
     async function enter(e) {
@@ -32,21 +34,29 @@
             body: JSON.stringify({ week, i, answer }),
         });
 
-        let { newi, message, newHtml, newEnd } = await response.json();
+        let { newi, newMessage, newHtml, newEnd } = await response.json();
 
-        if (newi != i) {
-            i = newi;
-            html = newHtml;
-            end = newEnd;
-        } else {
-            alert(message);
+        if (newi == i) {
             timer = tweened(20);
         }
+
+        i = newi;
+        message = newMessage;
+        html = newHtml;
+        end = newEnd;
 
         answer = "";
     }
 </script>
 
+{#if message}
+    <dialog open>
+        <p>{message}</p>
+        <form method="dialog">
+            <button>OK</button>
+        </form>
+    </dialog>
+{/if}
 {@html html.html}
 {#if !end}
     {#if $timer > 0}

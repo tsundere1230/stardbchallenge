@@ -49,3 +49,7 @@ button {
 .answerkey {
     @apply ml-20;
 }
+
+dialog {
+    @apply bg-[#7C79E8] text-[#DCDEFC] p-4;
+}

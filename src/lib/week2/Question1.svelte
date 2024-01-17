@@ -24,7 +24,7 @@
 </p>
 
 <p>
-    Angle: {@html math("TrailBlazePower_{Max} + \\sqrt[3]{TBPReq_{Lv64-65}}")}
+    Angle: {@html math("TrailBlazePower_{Max} + \\sqrt[3]{TBExpReq_{Lv64-65}}")}
     in degrees.
 </p>
 
@@ -35,8 +35,8 @@
 
 <p>
     You will be able to validate the radius as well as the angle, but round them
-    to the nearest integer before you validate. (E.g. if you think radius is 2, then
-    just enter 2 into the submission box.)
+    to the nearest integer before you validate. (E.g. if you think radius is 2,
+    then just enter 2 into the submission box.)
 </p>
 
 <p>NB: TeleportablePoints means anything you can click teleport on.</p>
