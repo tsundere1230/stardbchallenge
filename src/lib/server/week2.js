@@ -1,7 +1,7 @@
-import Question1 from "$lib/week2/Question1.svelte";
-import Question2 from "$lib/week2/Question2.svelte";
-import Question3 from "$lib/week2/Question3.svelte";
-import Congrats from "$lib/week2/Congrats.svelte";
+import Question1 from "$lib/week2/Question1.svelte.md";
+import Question2 from "$lib/week2/Question2.svelte.md";
+import Question3 from "$lib/week2/Question3.svelte.md";
+import Congrats from "$lib/week2/Congrats.svelte.md";
 
 const components = [Question1, Question2, Question3, Congrats];
 

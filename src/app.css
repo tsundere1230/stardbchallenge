@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-h1 {
+/* h1 {
     @apply font-bold underline text-5xl p-12;
 }
 
@@ -52,4 +52,4 @@ button {
 
 dialog {
     @apply bg-[#7C79E8] text-[#DCDEFC] p-4;
-}
+} */

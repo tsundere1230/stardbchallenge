@@ -19,8 +19,7 @@ export async function POST({ request }) {
         }
     }
 
-    // @ts-ignore
-    let newHtml = weeks[week].components[newi].render();
+    let { html: newHtml } = weeks[week].components[newi].render();
     let newEnd = newi == weeks[week].components.length - 1;
 
     return new Response(

@@ -49,24 +49,64 @@
     }
 </script>
 
-{#if message}
-    <dialog open>
-        <p>{message}</p>
-        <form method="dialog">
-            <button>OK</button>
-        </form>
-    </dialog>
-{/if}
-{@html html.html}
-{#if !end}
-    {#if $timer > 0}
-        <p>Come back in {$timer}s</p>
+<div class="space-y-10 md:mx-36 sm:mx-12 mx-4">
+    <h1 class="text-galaxy_purple-250 text-center text-5xl font-bold">
+        Star DB Challenge: Season 2 Week {$page.params.week}
+    </h1>
+    {#if message}
+        <dialog
+            class="bg-galaxy_purple-400 text-galaxy_purple-100 space-y-5 text-center border rounded-md"
+            open
+        >
+            <div class="m-4 space-y-2">
+                <p>{message}</p>
+                <form method="dialog">
+                    <button>OK</button>
+                </form>
+            </div>
+        </dialog>
     {/if}
-    <input
-        type="text"
-        bind:value={answer}
-        placeholder="Type your answer here"
-        on:keydown={enter}
-    />
-    <br />
-{/if}
+    <div class="question">
+        {@html html}
+    </div>
+    <!-- <div class="question">
+        <SvelteMarkdown {source} {options} {renderers} />
+    </div> -->
+    <div>
+        {#if !end}
+            {#if $timer > 0}
+                <p>Come back in {$timer}s</p>
+            {/if}
+            <input
+                class="bg-galaxy_purple-400 placeholder:text-galaxy_purple-100 p-2"
+                type="text"
+                bind:value={answer}
+                placeholder="Type your answer here"
+                on:keydown={enter}
+            />
+            <br />
+        {/if}
+    </div>
+</div>
+
+<style lang="postcss">
+    .question :global(h1) {
+        @apply text-2xl font-bold text-galaxy_purple-50;
+    }
+
+    .question :global(h2) {
+        @apply text-xl font-bold text-galaxy_purple-50;
+    }
+
+    .question :global(p) {
+        @apply text-lg my-4;
+    }
+
+    .question :global(ol li) {
+        @apply ml-10 list-decimal;
+    }
+
+    .question :global(ul li) {
+        @apply ml-10 list-disc;
+    }
+</style>
