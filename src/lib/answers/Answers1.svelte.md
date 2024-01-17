@@ -1,6 +1,6 @@
 # Q1
 
-Yukong has $[1]$ child. \
+Yukong has $[1]$ child.<br>
 There are $[3]$ Stellaron Hunters.
 
 1. The probability of no 5-star in 3 pulls is just losing a coin toss 3 times, except the coin has a $0.99$ chance of landing tails. So the answer is $0.99 \times 0.99 \times 0.99 = 0.970299$ .

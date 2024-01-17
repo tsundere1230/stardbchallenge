@@ -49,13 +49,16 @@
     }
 </script>
 
+<!-- <div class="z-20 fixed w-screen h-10 bg-galaxy_purple-50"></div> -->
+
 <div class="space-y-10 md:mx-36 sm:mx-12 mx-4">
     <h1 class="text-galaxy_purple-250 text-center text-5xl font-bold">
         Star DB Challenge: Season 2 Week {$page.params.week}
     </h1>
+
     {#if message}
         <dialog
-            class="bg-galaxy_purple-400 text-galaxy_purple-100 space-y-5 text-center border rounded-md"
+            class="z-10 bg-galaxy_purple-400 text-galaxy_purple-100 space-y-5 text-center border rounded-md"
             open
         >
             <div class="m-4 space-y-2">
