@@ -1,4 +1,4 @@
-# Question2
+# Question 2
 
 Please now leave the Seclusion Zone go to a map that fulfills the following
 conditions:

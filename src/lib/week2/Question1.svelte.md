@@ -1,4 +1,4 @@
-# Question1
+# Question 1
 
 Hi challengers! Week 2 will be two short geo-location challenges! This will involve opening HSR and finding points on the map, just like in Season 1.<br>
 Please head to the Seclusion Zone. Assuming Skaracabaz is the center of the polar coordinate plane, go to a point satisfying the polar coordinates below:

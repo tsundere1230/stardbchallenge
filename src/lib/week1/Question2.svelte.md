@@ -1,4 +1,4 @@
-# Question2
+# Question 2
 
 My Himeko has $[DemonKing]\%$ Crit Rate and $[TheArchitects]\%$ Crit Damage. Suppose her ult does $[AhaStuffedToy_{Max,NihilityPath} \times 100]$ damage.
 
