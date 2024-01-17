@@ -1,4 +1,5 @@
 <script>
+    // @ts-ignore
     import Answers1 from "$lib/answers/Answers1.svelte.md";
     // import Answers2 from "$lib/answers/Answers2.svelte.md";
 
