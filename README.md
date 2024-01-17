@@ -4,4 +4,5 @@ The sourcecode for all challenges of Season 2, available in public only once the
 
 ## Weeks
 #### Challenges are biweekly but we'll still count them in 'weeks'.
-- 1: December 31 - January 13 [current season]
+- 1: December 31 - January 15
+- 2: January 16 - February 3 [current season]
