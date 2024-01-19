@@ -45,32 +45,52 @@
         console.log(answers.join(""));
     }
 
-    /** @param { KeyboardEvent } e @param {number} index */
-    async function move(e, index) {
-        e.preventDefault();
+    /** @param {number} index */
+    async function next(index) {
+        // e.preventDefault();
 
-        let element;
+        // let element;
 
-        if (e.key == "Backspace") {
-            if (answers[index]) {
-                answers[index] = "";
-            } else {
-                element = /** @type {HTMLInputElement} */ (
-                    document.getElementById(`${index - 1}`)
-                );
-            }
-        } else if (e.key.length == 1) {
-            answers[index] = e.key;
+        // if (e.key == "Backspace") {
+        //     if (answers[index]) {
+        //         answers[index] = "";
+        //     } else {
+        //         element = /** @type {HTMLInputElement} */ (
+        //             document.getElementById(`${index - 1}`)
+        //         );
+        //     }
+        // } else if (e.key.length == 1) {
 
-            element = /** @type {HTMLInputElement} */ (
-                document.getElementById(`${index + 1}`)
-            );
-        }
+        let element = /** @type {HTMLInputElement} */ (
+            document.getElementById(`${index + 1}`)
+        );
+        // }
 
         if (!element) return;
 
         element.focus();
         element.select();
+    }
+
+    /** @param { KeyboardEvent } e @param {number} index */
+    async function keydown(e, index) {
+        if (e.key != "Backspace") {
+            return;
+        }
+
+        e.preventDefault();
+
+        if (answers[index]) {
+            answers[index] = "";
+        } else {
+            let element = /** @type {HTMLInputElement} */ (
+                document.getElementById(`${index - 1}`)
+            );
+
+            if (!element) return;
+            element.focus();
+            element.select();
+        }
     }
 </script>
 
@@ -99,7 +119,8 @@
                         minlength="1"
                         maxlength="1"
                         bind:value={answers[index]}
-                        on:keydown={(e) => move(e, index)}
+                        on:keydown={(e) => keydown(e, index)}
+                        on:input={() => next(index)}
                     />
                 </div>
             {/each}
