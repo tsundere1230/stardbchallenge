@@ -47,24 +47,11 @@
 
     /** @param {number} index */
     async function next(index) {
-        // e.preventDefault();
-
-        // let element;
-
-        // if (e.key == "Backspace") {
-        //     if (answers[index]) {
-        //         answers[index] = "";
-        //     } else {
-        //         element = /** @type {HTMLInputElement} */ (
-        //             document.getElementById(`${index - 1}`)
-        //         );
-        //     }
-        // } else if (e.key.length == 1) {
+        if (!answers[index]) return;
 
         let element = /** @type {HTMLInputElement} */ (
             document.getElementById(`${index + 1}`)
         );
-        // }
 
         if (!element) return;
 
@@ -74,9 +61,7 @@
 
     /** @param { KeyboardEvent } e @param {number} index */
     async function keydown(e, index) {
-        if (e.key != "Backspace") {
-            return;
-        }
+        if (e.key != "Backspace") return;
 
         e.preventDefault();
 
