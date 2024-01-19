@@ -64,7 +64,7 @@
             <div class="m-4 space-y-2">
                 <p>{message}</p>
                 <form method="dialog">
-                    <button>OK</button>
+                    <button on:click={() => (message = "")}>OK</button>
                 </form>
             </div>
         </dialog>
