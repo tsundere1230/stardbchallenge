@@ -2,6 +2,8 @@
     import "../app.css";
 </script>
 
-<div class="p-4 min-h-screen max-h-fit bg-space_dark text-galaxy_purple-150">
+<div
+    class="flex flex-col min-w-fit min-h-fit w-full h-full p-4 text-galaxy_purple-150"
+>
     <slot />
 </div>
