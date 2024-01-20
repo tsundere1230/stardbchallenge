@@ -9,7 +9,11 @@ import Congrats from "$lib/week2/Congrats.svelte.md";
 
 const components = [Question1, Question2, Question3, Congrats];
 
-const answers = [/^emergency$/i, /^540$/, /^spotlights$/i];
+const answers = [
+    /^emergency$/i,
+    /^(52[5-9]|5[34][0-9]|55[0-5])$/,
+    /^spotlights$/i,
+];
 
 /** @type {  {r: RegExp,  s: string}[][]} */
 const hints = [
@@ -17,7 +21,7 @@ const hints = [
         { r: /^6[34]$/, s: "Correct Radius" },
         { r: /^270$/, s: "Correct Angle" },
     ],
-    [{ r: /^(52[5-9]|5[34][0-9]|55[0-5])$/, s: "Correct, the answer is 540." }],
+    [],
     [{ r: /^even$/i, s: "Very good, but that's just the first step :smug:" }],
 ];
 
