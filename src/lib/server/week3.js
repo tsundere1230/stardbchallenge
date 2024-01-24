@@ -104,7 +104,7 @@ const hints = [
         },
         {
             r: /^mango/i,
-            s: "Have you ever asked yourself, how long this will go on? 🤔<br/>Having to wait 20sec every time. Might've been faster to just do the challenge.<br/>Either way go check my pronouns on discord",
+            s: "Have you ever asked yourself, how long this will go on? 🤔<br/>Having to wait 20sec every time. Might've been faster to just do the challenge.<br/>Either way go check my roles on discord",
         },
         {
             r: /^competitive\s*fox\s*enjoyer/i,
