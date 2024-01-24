@@ -3,7 +3,22 @@ export default {
     content: ["./src/**/*.{html,js,svelte,ts}"],
     theme: {
         colors: {
+            transparent: "transparent",
+            current: "currentColor",
             space_dark: "#0F0A1F",
+            off_white: "#DCDEFC",
+            warning_red: "#FF1E1E",
+            success_green: "#30F51F",
+            purple_highlight: "#4E40CA",
+            neon_yellow: "#F5D300",
+            neon_pink: "#FE53BB",
+            neon_green: "#09F9D3",
+            neon_blue: "#14C7FF",
+            dim_purple: "#4E44A3",
+            dim_yellow: "#C2A800",
+            dim_pink: "#CC4395",
+            dim_green: "#08C7AA",
+            dim_blue: "#10AACC",
             galaxy_purple: {
                 50: "#EDEFFE",
                 100: "#DCDEFC",

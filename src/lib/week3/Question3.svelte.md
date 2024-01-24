@@ -11,10 +11,10 @@
 
 You look at the entrance ticket and realize… it’s just another puzzle! Security is so tight this year round…
 
-_At the origin of a **C**hild’s Letter lies the first p**o**i**n**t
-Followed by Arterm’s rescue by an u**n**known man
-Fr**e**t not, Bel will walk you through everything
-With a poem on how people from all **c**orners of the world s**t**umbled
+_At the origin of a **C**hild’s Letter lies the first p**o**i**n**t<br/>
+Followed by Arterm’s rescue by an u**n**known man<br/>
+Fr**e**t not, Bel will walk you through everything<br/>
+With a poem on how people from all **c**orners of the world s**t**umbled<br/>
 Into the quarrel between Your truest friend, Sonya._
 
 Once I return to the origin, I will complete what I’m seeking…

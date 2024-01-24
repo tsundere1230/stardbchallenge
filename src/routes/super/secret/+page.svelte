@@ -11,9 +11,9 @@
     import { page } from "$app/stores";
     let week = parseInt($page.params.week) - 1;
 
-    import weeks from "$lib/weeks.js";
+    import questions from "$lib/superSecret.js";
 
-    let answers = Array(weeks[week].length).fill("");
+    let answers = Array(questions.length).fill("");
     let congrats = "";
     let message = "";
 
@@ -36,7 +36,7 @@
         if (!message) {
             answers[i++] = answer;
 
-            if (i >= weeks[week].length) {
+            if (i >= questions.length) {
                 let response = await fetch("/challenge/verify", {
                     method: "POST",
                     body: JSON.stringify({ week, answers }),
@@ -45,7 +45,7 @@
                 ({ congrats } = await response.json());
             }
         } else {
-            timer = tweened(20);
+            timer = tweened(0);
         }
 
         answerStore.set("");
@@ -73,8 +73,8 @@
         Star DB Challenge: Season 2 Week {$page.params.week}
     </h1>
 
-    {#if weeks[week].length > i}
-        <svelte:component this={weeks[week][i]} {answerStore} {validate} />
+    {#if questions.length > i}
+        <svelte:component this={questions[i]} {answerStore} {validate} />
         {#if $timer > 0}
             <p class="fixed bottom-4 right-4">Come back in {$timer}s</p>
         {/if}

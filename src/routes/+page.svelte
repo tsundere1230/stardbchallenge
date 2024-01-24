@@ -1,7 +1,7 @@
 <script>
     import challengers from "$lib/challengers.json";
 
-    export let data;
+    import weeks from "$lib/weeks";
 
     let leaderboard = challengers.reduce(
         (/** @type {{completed: number, names: string[]}[]}*/ curr, val) => {
@@ -35,7 +35,7 @@
                     >
                 </tr>
 
-                {#each { length: data.length } as _, i}
+                {#each { length: weeks.length } as _, i}
                     <tr>
                         <td class="px-4"
                             ><a href="/challenge/weeks/{i + 1}">Week {i + 1}</a
