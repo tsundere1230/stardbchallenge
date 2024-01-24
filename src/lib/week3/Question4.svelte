@@ -8,24 +8,24 @@
     let height = 21;
 
     let crossword = [
-        { label: 1, letters: 4, vertical: true, x: 0, y: 0 }, // fire
-        { label: 2, letters: 3, vertical: false, x: 15, y: 0 }, // pig
-        { label: 3, letters: 3, vertical: true, x: 4, y: 5 }, // rat
-        { label: 4, letters: 4, vertical: true, x: 0, y: 10 }, // goat
-        { label: 5, letters: 5, vertical: false, x: 6, y: 9 }, // earth
-        { label: 6, letters: 5, vertical: true, x: 8, y: 0 }, // horse
-        { label: 7, letters: 3, vertical: true, x: 1, y: 5 }, // dog
-        { label: 8, letters: 4, vertical: false, x: 6, y: 7 }, // wood
-        { label: 8, letters: 5, vertical: true, x: 22, y: 12 }, // water
-        { label: 9, letters: 5, vertical: true, x: 10, y: 0 }, // snake
-        { label: 10, letters: 5, vertical: true, x: 3, y: 9 }, // metal
-        { label: 11, letters: 6, vertical: false, x: 0, y: 15 }, // dragon
-        { label: 12, letters: 5, vertical: false, x: 2, y: 3 }, // tiger
-        { label: 13, letters: 6, vertical: true, x: 12, y: 0 }, // monkey
-        { label: 14, letters: 7, vertical: false, x: 12, y: 8 }, // rooster
-        { label: 15, letters: 6, vertical: true, x: 20, y: 9 }, // rabbit
-        { label: 16, letters: 10, vertical: false, x: 13, y: 6 }, // scaracabaz
-        { label: 16, letters: 3, vertical: true, x: 7, y: 12 }, // cat
+        { label: 1, letters: 4, vertical: true, x: 0, y: 0 },
+        { label: 2, letters: 3, vertical: false, x: 15, y: 0 },
+        { label: 3, letters: 3, vertical: true, x: 4, y: 5 },
+        { label: 4, letters: 4, vertical: true, x: 0, y: 10 },
+        { label: 5, letters: 5, vertical: false, x: 6, y: 9 },
+        { label: 6, letters: 5, vertical: true, x: 8, y: 0 },
+        { label: 7, letters: 3, vertical: true, x: 1, y: 5 },
+        { label: 8, letters: 4, vertical: false, x: 6, y: 7 },
+        { label: 8, letters: 5, vertical: true, x: 22, y: 12 },
+        { label: 9, letters: 5, vertical: true, x: 10, y: 0 },
+        { label: 10, letters: 5, vertical: true, x: 3, y: 9 },
+        { label: 11, letters: 6, vertical: false, x: 0, y: 15 },
+        { label: 12, letters: 5, vertical: false, x: 2, y: 3 },
+        { label: 13, letters: 6, vertical: true, x: 12, y: 0 },
+        { label: 14, letters: 7, vertical: false, x: 12, y: 8 },
+        { label: 15, letters: 6, vertical: true, x: 20, y: 9 },
+        { label: 16, letters: 10, vertical: false, x: 13, y: 6 },
+        { label: 16, letters: 3, vertical: true, x: 7, y: 12 },
     ];
 
     let indexMap = new Map();
