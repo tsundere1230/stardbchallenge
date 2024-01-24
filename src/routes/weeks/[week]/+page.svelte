@@ -82,12 +82,7 @@
         {/if}
     {:else}
         <div class="text-4xl">
-            {congrats}
-            <p class="mt-4">Congrats 🤓🤓nerd!</p>
-            <p>
-                Now screenshot this 📃📃page to prove that you have
-                completed✅✅ the ✖️ challenge➗
-            </p>
+            {@html congrats}
         </div>
     {/if}
 </div>
