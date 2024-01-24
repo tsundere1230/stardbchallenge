@@ -28,7 +28,7 @@
 
         let response = await fetch("/challenge/validate", {
             method: "POST",
-            body: JSON.stringify({ week: 3, i, answer }),
+            body: JSON.stringify({ week: 2, i, answer }),
         });
 
         ({ message } = await response.json());
