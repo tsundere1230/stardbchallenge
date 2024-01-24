@@ -1,3 +1,12 @@
+<script>
+    export let answerStore;
+    export let validate;
+
+    import Input from "$lib/Input.svelte";
+</script>
+
+<div class="markdown">
+
 # Question 2
 
 My Himeko has $[DemonKing]\%$ Crit Rate and $[TheArchitects]\%$ Crit Damage. Suppose her ult does $[AhaStuffedToy_{Max,NihilityPath} \times 100]$ damage.
@@ -7,3 +16,7 @@ My Himeko has $[DemonKing]\%$ Crit Rate and $[TheArchitects]\%$ Crit Damage. Sup
 3. Suppose Himeko has $[Kafka_{CNVA} \times 2]\%$ less Crit Rate and $[Toughness_{是否允许更改} \times 0.5]\%$ more Crit Damage. What is the percentage difference in the expected damage per ult? (remember to answer in decimal)
 
 Your password is $(Ans(1) - Ans(2))(1 + Ans(3))$
+
+</div>
+
+<Input {answerStore} {validate} />

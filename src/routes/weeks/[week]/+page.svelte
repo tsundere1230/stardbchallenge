@@ -1,62 +1,63 @@
 <script>
     import { tweened } from "svelte/motion";
-    import { page } from "$app/stores";
-
-    export let data;
-
-    let week = parseInt($page.params.week) - 1;
-
     let timer = tweened(0);
     setInterval(() => {
         if ($timer > 0) $timer--;
     }, 1000);
 
-    let i = 0;
-    let answer = "";
-    let end = false;
-    let html = data.html;
+    import { writable, get } from "svelte/store";
+    let answerStore = writable("");
+
+    import { page } from "$app/stores";
+    let week = parseInt($page.params.week) - 1;
+
+    import weeks from "$lib/weeks.js";
+
+    let answers = Array(weeks[week].length).fill("");
+    let congrats = "";
     let message = "";
 
-    /** @param { KeyboardEvent } e */
-    async function enter(e) {
-        if (e.key == "Enter") {
-            validate();
-        }
-    }
+    let i = 0;
 
     async function validate() {
         if ($timer > 0) {
             return;
         }
 
-        let response = await fetch("/challenge/verify", {
+        let answer = get(answerStore);
+
+        let response = await fetch("/challenge/validate", {
             method: "POST",
             body: JSON.stringify({ week, i, answer }),
         });
 
-        let { newi, newMessage, newHtml, newEnd } = await response.json();
+        ({ message } = await response.json());
 
-        if (newi == i) {
+        console.log(message);
+
+        if (!message) {
+            answers[i++] = answer;
+
+            if (i >= weeks[week].length) {
+                let response = await fetch("/challenge/verify", {
+                    method: "POST",
+                    body: JSON.stringify({ week, answers }),
+                });
+
+                ({ congrats } = await response.json());
+            }
+        } else {
             timer = tweened(20);
         }
 
-        i = newi;
-        message = newMessage;
-        html = newHtml;
-        end = newEnd;
-
-        answer = "";
+        answerStore.set("");
     }
 </script>
 
-<div class="space-y-10 md:mx-36 sm:mx-12 mx-4">
-    <h1 class="text-galaxy_purple-250 text-center text-5xl font-bold">
-        Star DB Challenge: Season 2 Week {$page.params.week}
-    </h1>
-
-    {#if message}
+{#if message}
+    <div class="flex flex-col justify-center fixed w-screen h-screen z-10">
         <dialog
-            class="z-10 fixed font-bold text-xl bg-galaxy_purple-400 text-space_dark space-y-5 text-center border-2 rounded-md border-galaxy_purple-50"
+            class="font-bold text-xl bg-galaxy_purple-400 text-space_dark space-y-5 text-center border-2 rounded-md border-galaxy_purple-50"
             open
         >
             <div class="m-4 space-y-2">
@@ -66,23 +67,27 @@
                 </form>
             </div>
         </dialog>
-    {/if}
-    <div class="markdown">
-        {@html html}
     </div>
-    <div>
-        {#if !end}
-            {#if $timer > 0}
-                <p>Come back in {$timer}s</p>
-            {/if}
-            <input
-                class="bg-galaxy_purple-400 placeholder:text-galaxy_purple-100 p-2"
-                type="text"
-                bind:value={answer}
-                placeholder="Type your answer here"
-                on:keydown={enter}
-            />
-            <br />
+{/if}
+
+<div class="space-y-10 md:mx-36 sm:mx-12 mx-4">
+    <h1 class="text-galaxy_purple-250 text-center text-5xl font-bold">
+        Star DB Challenge: Season 2 Week {$page.params.week}
+    </h1>
+
+    {#if weeks[week].length > i}
+        <svelte:component this={weeks[week][i]} {answerStore} {validate} />
+        {#if $timer > 0}
+            <p class="fixed bottom-4 right-4">Come back in {$timer}s</p>
         {/if}
-    </div>
+    {:else}
+        <div class="text-4xl">
+            {congrats}
+            <p class="mt-4">Congrats 🤓🤓nerd!</p>
+            <p>
+                Now screenshot this 📃📃page to prove that you have
+                completed✅✅ the ✖️ challenge➗
+            </p>
+        </div>
+    {/if}
 </div>

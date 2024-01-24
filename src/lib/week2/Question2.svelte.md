@@ -1,3 +1,12 @@
+<script>
+    export let answerStore;
+    export let validate;
+
+    import Input from "$lib/Input.svelte";
+</script>
+
+<div class="markdown">
+
 # Question 2
 
 Please now leave the Seclusion Zone go to a map that fulfills the following
@@ -12,3 +21,7 @@ Your task is now to measure the distance between the two teleport points on the 
 Your password is $Length\_{Line}$ in feet (round it to an integer).
 
 There is no validation for this question :sobpuddle: (but there is a small range of values accepted).
+
+</div>
+
+<Input {answerStore} {validate} />

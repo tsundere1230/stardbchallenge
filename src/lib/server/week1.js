@@ -1,15 +1,3 @@
-// @ts-ignore
-import Question1 from "$lib/week1/Question1.svelte.md";
-// @ts-ignore
-import Question2 from "$lib/week1/Question2.svelte.md";
-// @ts-ignore
-import Question3 from "$lib/week1/Question3.svelte.md";
-// @ts-ignore
-import Question4 from "$lib/week1/Question4.svelte.md";
-// @ts-ignore
-import Congrats from "$lib/week1/Congrats.svelte.md";
-
-const components = [Question1, Question2, Question3, Question4, Congrats];
 const answers = [/^9702$/, /^24000$/, /^88050$/, /^cryptic$/i];
 
 /** @type {  {r: RegExp,  s: string}[][]} */
@@ -35,4 +23,7 @@ const hints = [
     [],
 ];
 
-export default { components, answers, hints };
+const congrats =
+    "👌👀👌👀👌👀👌👀👌👀 good shit go౦ԁ sHit👌 thats ✔ some good👌👌shit right👌👌th 👌 ere👌👌👌 right✔there ✔✔if i do ƽaү so my sel ｆ 💯 i say so 💯 thats what im talking about right there right there(chorus: ʳᶦᵍʰᵗ ᵗʰᵉʳᵉ) mMMMMᎷМ💯 👌👌 👌НO0Оଠ Ｏ OO Ｏ OОଠଠOoooᵒᵒᵒᵒᵒᵒᵒᵒᵒ👌 👌👌 👌 💯 👌 👀 👀 👀 👌👌Good shit";
+
+export default { answers, hints, congrats };
