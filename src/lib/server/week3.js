@@ -1,5 +1,5 @@
 const answers = [
-    /^wood\s*ox\s*1985$/i,
+    /^woodox1985$/i,
     /^2341830930900800$/,
     /^star$/i,
     /^firepigratgoatearthhorsedogwoodwatersnakemetaldragontigermonkeyroosterrabbitskaracabazcat$/i,
@@ -79,19 +79,19 @@ const hints = [
             s: "After some consideration I have come to the conclusion, that you should work at least a little to pass :D<br/>For starters how about adding the magic word (don't overthink this) before skip",
         },
         {
-            r: /^please\s*skip*/i,
+            r: /^pleaseskip*/i,
             s: "Good good. Beg some more hehe 😏. Double the amount of magic words!",
         },
         {
-            r: /^please\s*please\s*skip*/i,
+            r: /^pleasepleaseskip*/i,
             s: "😳 Double it again!",
         },
         {
-            r: /^please\s*please\s*please\s*please\s*skip*/i,
+            r: /^pleasepleasepleasepleaseskip*/i,
             s: "well, thiS sHouldn't be too eAsy, becuase i put in a lot of work in My challEnge. 😈",
         },
         {
-            r: /^please\s*please\s*please\s*please\s*please\s*please\s*please\s*please\s*skip*/i,
+            r: /^pleasepleasepleasepleasepleasepleasepleasepleaseskip*/i,
             s: "WOAH. Too much!!! Go back go back!!! 😱",
         },
         {
@@ -107,7 +107,7 @@ const hints = [
             s: "Have you ever asked yourself, how long this will go on? 🤔<br/>Having to wait 20sec every time. Might've been faster to just do the challenge.<br/>Either way go check my roles on discord",
         },
         {
-            r: /^competitive\s*fox\s*enjoyer/i,
+            r: /^competitivefoxenjoyer/i,
             s: "Well since you're already on discord, you might as well execute chive bots /register command with 420 as the uid 😎👌",
         },
         {

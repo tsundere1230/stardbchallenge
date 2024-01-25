@@ -6,7 +6,7 @@ export async function POST({ request }) {
 
     let message = "omegalul :sobpuddle:";
 
-    if (weeks[week].answers[i].test(answer.trim())) {
+    if (weeks[week].answers[i].test(answer.replace(/\s/g, ""))) {
         message = "";
     } else {
         for (let hint of weeks[week].hints[i]) {
