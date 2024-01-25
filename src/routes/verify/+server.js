@@ -7,7 +7,7 @@ export async function POST({ request }) {
     let congrats = weeks[week].congrats;
 
     for (let i = 0; i < answers.length; i++) {
-        if (!weeks[week].answers[i].test(answers[i].replace(/\s/g, ""))) {
+        if (!weeks[week].answers[i].test(answers.replace(/\s/g, ""))) {
             congrats = "You Cheated Not Only the Game, But Yourself";
             break;
         }
