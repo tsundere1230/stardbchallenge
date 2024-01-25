@@ -2,11 +2,12 @@ import weeks from "$lib/server/weeks";
 
 /** @type {import('./$types').RequestHandler} */
 export async function POST({ request }) {
-    const { week, i, answer } = await request.json();
+    let { week, i, answer } = await request.json();
+    answer = answer.replace(/\s/g, "");
 
     let message = "omegalul :sobpuddle:";
 
-    if (weeks[week].answers[i].test(answer.replace(/\s/g, ""))) {
+    if (weeks[week].answers[i].test(answer)) {
         message = "";
     } else {
         for (let hint of weeks[week].hints[i]) {

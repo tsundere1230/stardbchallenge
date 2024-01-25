@@ -17,7 +17,7 @@
     let congrats = "";
     let message = "";
 
-    let i = 0;
+    let i = 4;
 
     async function validate() {
         if ($timer > 0) {
