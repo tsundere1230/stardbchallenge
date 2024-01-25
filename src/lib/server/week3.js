@@ -2,7 +2,7 @@ const answers = [
     /^wood\s*ox\s*1985$/i,
     /^2341830930900800$/,
     /^star$/i,
-    /^firepigratgoatearthhorsedogwoodwatersnakemetaldragontigermonkeyroosterrabbitscaracabazcat$/i,
+    /^firepigratgoatearthhorsedogwoodwatersnakemetaldragontigermonkeyroosterrabbitskaracabazcat$/i,
     /^brains$/i,
 ];
 
@@ -65,11 +65,11 @@ const hints = [
             s: "15 is wrong",
         },
         {
-            r: /^(?!firepigratgoatearthhorsedogwoodwatersnakemetaldragontigermonkeyroosterrabbitscaracabaz).*/i,
+            r: /^(?!firepigratgoatearthhorsedogwoodwatersnakemetaldragontigermonkeyroosterrabbitskaracabaz).*/i,
             s: "16 (Horizontal) is wrong",
         },
         {
-            r: /^(?!firepigratgoatearthhorsedogwoodwatersnakemetaldragontigermonkeyroosterrabbitscaracabazcat).*/i,
+            r: /^(?!firepigratgoatearthhorsedogwoodwatersnakemetaldragontigermonkeyroosterrabbitskaracabazcat).*/i,
             s: "16 (Vertical) is wrong",
         },
     ],
