@@ -53,19 +53,17 @@
 </script>
 
 {#if message}
-    <div class="flex flex-col justify-center fixed w-screen h-screen z-10">
-        <dialog
-            class="font-bold text-xl bg-galaxy_purple-400 text-space_dark space-y-5 text-center border-2 rounded-md border-galaxy_purple-50"
-            open
-        >
-            <div class="m-4 space-y-2">
-                <p>{@html message}</p>
-                <form method="dialog">
-                    <button on:click={() => (message = "")}>OK</button>
-                </form>
-            </div>
-        </dialog>
-    </div>
+    <dialog
+        class="transform -translate-y-1/2 fixed font-bold text-xl bg-galaxy_purple-400 text-space_dark space-y-5 top-1/2 text-center border-2 rounded-md border-galaxy_purple-50"
+        open
+    >
+        <div class="m-4 space-y-2">
+            <p>{@html message}</p>
+            <form method="dialog">
+                <button on:click={() => (message = "")}>OK</button>
+            </form>
+        </div>
+    </dialog>
 {/if}
 
 <div class="space-y-10 md:mx-36 sm:mx-12 mx-4">
