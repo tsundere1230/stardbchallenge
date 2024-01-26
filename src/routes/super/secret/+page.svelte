@@ -8,8 +8,7 @@
     import { writable, get } from "svelte/store";
     let answerStore = writable("");
 
-    import { page } from "$app/stores";
-    let week = parseInt($page.params.week) - 1;
+    let week = 2;
 
     import questions from "$lib/superSecret.js";
 
@@ -28,7 +27,7 @@
 
         let response = await fetch("/challenge/validate", {
             method: "POST",
-            body: JSON.stringify({ week: 2, i, answer }),
+            body: JSON.stringify({ week, i, answer }),
         });
 
         ({ message } = await response.json());
@@ -68,7 +67,7 @@
 
 <div class="space-y-10 md:mx-36 sm:mx-12 mx-4">
     <h1 class="text-galaxy_purple-250 text-center text-5xl font-bold">
-        Star DB Challenge: Season 2 Week {$page.params.week}
+        Star DB Challenge: Season 2 Week {week}
     </h1>
 
     {#if questions.length > i}
