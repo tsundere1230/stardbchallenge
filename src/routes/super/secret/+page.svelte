@@ -16,7 +16,7 @@
     let congrats = "";
     let message = "";
 
-    let i = 0;
+    let i = 4;
 
     async function validate() {
         if ($timer > 0) {
@@ -27,7 +27,11 @@
 
         let response = await fetch("/challenge/validate", {
             method: "POST",
-            body: JSON.stringify({ week, i, answer }),
+            body: JSON.stringify({
+                week,
+                i,
+                answer,
+            }),
         });
 
         ({ message } = await response.json());
@@ -38,7 +42,16 @@
             if (i >= questions.length) {
                 let response = await fetch("/challenge/verify", {
                     method: "POST",
-                    body: JSON.stringify({ week, answers }),
+                    body: JSON.stringify({
+                        week,
+                        answers: [
+                            "woodox1985",
+                            "2341830930900800",
+                            "star",
+                            "firepigratgoatearthhorsedogwoodwatersnakemetaldragontigermonkeyroosterrabbitskaracabazcat",
+                            "brains",
+                        ],
+                    }),
                 });
 
                 ({ congrats } = await response.json());
@@ -67,7 +80,7 @@
 
 <div class="space-y-10 md:mx-36 sm:mx-12 mx-4">
     <h1 class="text-galaxy_purple-250 text-center text-5xl font-bold">
-        Star DB Challenge: Season 2 Week {week}
+        Star DB Challenge: Season 2 Week {week + 1}
     </h1>
 
     {#if questions.length > i}
