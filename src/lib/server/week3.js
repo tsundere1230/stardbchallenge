@@ -130,7 +130,11 @@ const hints = [
 ];
 
 const congrats = ` 
-TEMP
+I am down 😩😩 CATACLYSMIC 😩😩😩 for silver wolf 🐺🐺. Her monotone 😏😏 smugness 😏😏, her just barely not 🫓🫓 flat 🫓🫓 chest, her cute face 😳😳😳. But all of those combined do ❎❎ nothing ❎❎❎ to me compared to her 🩳🩳 shorts 🩳🩳🩳. Sure there's the obvious of them framing her 🍑🍑 tight butt 🍑🍑  perfectly 🔥🔥🔥🔥, but this just scratches the surface 😳😳. Them being casually unbuttoned 😳😳, ready to slip 🍌🍌off at any time. The little straps 🎀🎀 hugging her delicious thighs 🦶🦶. But what really gets me going? The sides are 🐟🐟 fish 🐟🐟 nets. The sides of her 🩳🩳 shorts 🩳🩳 are 🐟 🥅 f i s h n e t s 🐟 🥅. You can see everything 😳😳. Might as well be wearing a qipao. What kind of 🩳🩳 shorts🩳🩳 are like that? 🔥🔥🔥 Its so slutty for no reason. She isn't wearing 🩲🩲 panties 🩲🩲 . When she 🏃‍♀️🏃‍♀️ sprints 🏃‍♀️🏃‍♀️ you can really tell how much of her 🍑🍑 cheeks 🍑🍑they show. It's amazing. I can't even play as her in 🌍🌍 overworld 🌍🌍 cause i get so horny😳😳. Mihoyo are truly geniuses 🧠🧠. Someone help me I just can't stop staring  at Silver Wolf's shorts 🐺🩳
+<br /><br />
+Are you wondering WTF did you just read? well me too...anyways you have completed the challenge!!
+<br /><br />
+Now take the screenshot of....whatever this is and send it in the ticket...oh and don't be naughty!
 `;
 
 export default { answers, hints, congrats };
