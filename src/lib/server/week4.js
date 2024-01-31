@@ -5,12 +5,12 @@ const answers = [
 /** @type {  {r: RegExp,  s: string}[][]} */
 const hints = [
     [
-        { r: /^01weltjpultimate$/i, s: "d" },
+        { r: /^01weltjpultimate$/i, s: "d" }, //jp bad
         { r: /^02qingquejpultimate$/i, s: "P" },
-        { r: /^03danhengcnultimate$/i, s: "m" },
-        { r: /^04huohuoen$/i, s: "i" },
+        { r: /^03danhengcnultimate$/i, s: "m" }, //cn good
+        { r: /^04huohuoen$/i, s: "i" }, //en bad
         { r: /^05drratioen$/i, s: "<space>" },
-        { r: /^06luochakrskill$/i, s: "t" },
+        { r: /^06luochakrskill$/i, s: "t" }, //kr good
         { r: /^07hanyacnskill$/i, s: "H" },
         { r: /^08ruanmeijpultimate$/i, s: "g" },
         { r: /^09silverwolfjpultimate$/i, s: "s" },
@@ -34,7 +34,7 @@ copypasta
 
 A huge thank you to all the voice actors:
 Necro: Welt & Clara
-Julius: Silverwolf
+Julius: Silverwolf (yes)
 Lightly: Dr Ratio
 Nakfr0g: Pela (yes)
 Tsun: Ruan Mei & Black Swan
