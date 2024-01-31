@@ -104,10 +104,14 @@ const hints = [
         },
         {
             r: /^mango$/i,
-            s: "Have you ever asked yourself, how long this will go on? 🤔<br/>Having to wait 20sec every time. Might've been faster to just do the challenge.<br/>Either way go check my roles on discord",
+            s: "Have you ever asked yourself, how long this will go on? 🤔<br/>Having to wait 20sec every time. Might've been faster to just do the challenge.<br/>Either way. What's the name of the servers current Chive Guardian?",
         },
         {
-            r: /^competitivefoxenjoyer$/i,
+            r: /^pierrot$/i,
+            s: "Lol, use the actual username and not the display name 😂",
+        },
+        {
+            r: /^alitadark$/i,
             s: "Well since you're already on discord, you might as well execute chive bots /register command with 420 as the uid 😎👌",
         },
         {
