@@ -1,6 +1,4 @@
-const answers = [
-    /^Somatotypical Helix$/, /^Julius$/,
-];
+const answers = [/^Somatotypical Helix$/, /^rosetta\s*(stone)?$/i];
 
 /** @type {  {r: RegExp,  s: string}[][]} */
 const hints = [
@@ -26,30 +24,36 @@ const hints = [
         { r: /^19bladekr$/i, s: "i" },
         { r: /^20guinaifenen$/i, s: "a" },
     ],
-    [],
+    [
+        { r: /^(rho|zeta)$/i, s: "That's one of the 2 letters" },
+        {
+            r: /^rho\s*zeta$/i,
+            s: "There's a pretty famous stone that was used for deciphering egyptian hieroglyphs.<br>I want it's name.",
+        },
+    ],
 ];
 
 const congrats = `
-copypasta
+copypasta<br /><br />
 
-A huge thank you to all the voice actors:
-Necro: Welt & Clara
-Julius: Silverwolf (yes)
-Lightly: Dr Ratio
-Nakfr0g: Pela (yes)
-Tsun: Ruan Mei & Black Swan
-Zorus: Qingque
-Minimiz: Dan Heng
-Pulsarion: Huohuo
-Jay: Luocha
-Azazoth: Hanya
-Pix: Jingliu
-Kama: Sushang
-Kaju: Topaz & Numby
-Rzd: Jingyuan
-Pierrot: Kafka
-Xres: Trailblazer
-Stellarr: Blade
+A huge thank you to all the voice actors:<br />
+Necro: Welt & Clara<br />
+Julius: Silverwolf (yes)<br />
+Lightly: Dr Ratio<br />
+Nakfr0g: Pela (yes)<br />
+Tsun: Ruan Mei & Black Swan<br />
+Zorus: Qingque<br />
+Minimiz: Dan Heng<br />
+Pulsarion: Huohuo<br />
+Jay: Luocha<br />
+Azazoth: Hanya<br />
+Pix: Jingliu<br />
+Kama: Sushang<br />
+Kaju: Topaz & Numby<br />
+Rzd: Jingyuan<br />
+Pierrot: Kafka<br />
+Xres: Trailblazer<br />
+Stellarr: Blade<br />
 Merper: Guinaifen
 `;
 
