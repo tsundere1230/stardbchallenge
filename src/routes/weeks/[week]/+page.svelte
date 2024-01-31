@@ -13,7 +13,7 @@
 
     import weeks from "$lib/weeks.js";
 
-    let answers = Array(weeks[week].length).fill("");
+    let answers = Array((weeks[week] || []).length).fill("");
     let congrats = "";
     let message = "";
 
@@ -68,19 +68,26 @@
     </div>
 {/if}
 
-<div class="space-y-10 md:mx-36 sm:mx-12 mx-4">
-    <h1 class="text-galaxy_purple-250 text-center text-5xl font-bold">
-        Star DB Challenge: Season 2 Week {$page.params.week}
-    </h1>
+{#if weeks.length > week}
+    <div class="space-y-10 md:mx-36 sm:mx-12 mx-4">
+        <h1 class="text-galaxy_purple-250 text-center text-5xl font-bold">
+            Star DB Challenge: Season 2 Week {$page.params.week}
+        </h1>
 
-    {#if weeks[week].length > i}
-        <svelte:component this={weeks[week][i]} {answerStore} {validate} />
-        {#if $timer > 0}
-            <p class="fixed bottom-4 right-4">Come back in {$timer}s</p>
+        {#if weeks[week].length > i}
+            <svelte:component this={weeks[week][i]} {answerStore} {validate} />
+            {#if $timer > 0}
+                <p class="fixed bottom-4 right-4">Come back in {$timer}s</p>
+            {/if}
+        {:else}
+            <div class="text-4xl">
+                {@html congrats}
+            </div>
         {/if}
-    {:else}
-        <div class="text-4xl">
-            {@html congrats}
-        </div>
-    {/if}
-</div>
+    </div>
+{:else}
+    <p>
+        Well well well. Trying to take a sneak peak at week {$page.params.week} are
+        we? :hertaSmug:
+    </p>
+{/if}
