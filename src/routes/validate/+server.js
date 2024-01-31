@@ -3,7 +3,6 @@ import weeks from "$lib/server/weeks";
 /** @type {import('./$types').RequestHandler} */
 export async function POST({ request }) {
     let { week, i, answer } = await request.json();
-    answer = answer.replace(/\s/g, "");
 
     let message = "omegalul :sobpuddle:";
 

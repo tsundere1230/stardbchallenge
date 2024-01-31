@@ -1,5 +1,5 @@
 const answers = [
-    /^woodox1985$/i,
+    /^wood\s*ox\s*1985$/i,
     /^2341830930900800$/,
     /^star$/i,
     /^firepigratgoatearthhorsedogwoodwatersnakemetaldragontigermonkeyroosterrabbitskaracabazcat$/i,
@@ -79,19 +79,19 @@ const hints = [
             s: "After some consideration I have come to the conclusion, that you should work at least a little to pass :D<br/>For starters how about adding the magic word (don't overthink this) before skip",
         },
         {
-            r: /^pleaseskip$/i,
+            r: /^please\s*skip$/i,
             s: "Good good. Beg some more hehe 😏. Double the amount of magic words!",
         },
         {
-            r: /^pleasepleaseskip$/i,
+            r: /^(please\s*){2}skip$/i,
             s: "😳 Double it again!",
         },
         {
-            r: /^pleasepleasepleasepleaseskip$/i,
+            r: /^(please\s*){4}skip$/i,
             s: "well, thiS sHouldn't be too eAsy, becuase i put in a lot of work in My challEnge. 😈",
         },
         {
-            r: /^pleasepleasepleasepleasepleasepleasepleasepleaseskip$/i,
+            r: /^(please\s*){8}skip$/i,
             s: "WOAH. Too much!!! Go back go back!!! 😱",
         },
         {
