@@ -53,7 +53,7 @@
 </script>
 
 {#if message}
-    <div class="flex flex-col justify-center fixed w-screen h-screen z-10">
+    <div class="flex flex-col justify-center fixed w-screen h-screen z-50">
         <dialog
             class="font-bold text-xl bg-galaxy_purple-400 text-space_dark space-y-5 text-center border-2 rounded-md border-galaxy_purple-50"
             open
