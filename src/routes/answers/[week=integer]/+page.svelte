@@ -18,7 +18,7 @@
         <svelte:component this={answers[week]} />
     </div>
 {:else}
-    <h2>
+    <p>
         Week {$page.params.week} answers are not out yet, cheater!! Go away!! :angy:
-    </h2>
+    </p>
 {/if}
