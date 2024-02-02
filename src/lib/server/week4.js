@@ -3,26 +3,26 @@ const answers = [/^Somatotypical Helix$/, /^rosetta\s*(stone)?$/i];
 /** @type {  {r: RegExp,  s: string}[][]} */
 const hints = [
     [
-        { r: /^01weltjpultimate$/i, s: "d" }, //jp bad
-        { r: /^02qingquejpultimate$/i, s: "P" },
-        { r: /^03danhengcnultimate$/i, s: "m" }, //cn good
+        { r: /^01weltjpult(imate)*$/i, s: "d" }, //jp bad
+        { r: /^02qingquejpult(imate)*$/i, s: "P" },
+        { r: /^03danhengcnult(imate)*$/i, s: "m" }, //cn good
         { r: /^04huohuoen$/i, s: "i" }, //en bad
-        { r: /^05drratioen$/i, s: "<space>" },
+        { r: /^05drratioenult(imate)*$/i, s: "<space>" },
         { r: /^06luochakrskill$/i, s: "t" }, //kr good
         { r: /^07hanyacnskill$/i, s: "H" },
-        { r: /^08ruanmeijpultimate$/i, s: "g" },
-        { r: /^09silverwolfjpultimate$/i, s: "s" },
-        { r: /^10pelaenultimate$/i, s: "a" },
-        { r: /^11jingliucnultimate$/i, s: "e" },
-        { r: /^12sushangcnultimate$/i, s: "p" },
-        { r: /^13topaz&numbyjpbasic$/i, s: "l" },
+        { r: /^08ruanmeijpult(imate)*$/i, s: "g" },
+        { r: /^09silverwolfjpult(imate)*$/i, s: "s" },
+        { r: /^10pelaenult(imate)*$/i, s: "a" },
+        { r: /^11jingliucnult(imate)*$/i, s: "e" },
+        { r: /^12sushangcnult(imate)*$/i, s: "p" },
+        { r: /^13topaz&numbyjpbasic(attack)*$/i, s: "l" },
         { r: /^14clarajp$/i, s: "r" },
-        { r: /^15jingyuancnultimate$/i, s: "a" },
-        { r: /^16kafkajpultimate$/i, s: "l" },
+        { r: /^15jingyuancnult(imate)*$/i, s: "a" },
+        { r: /^16kafkajpult(imate)*$/i, s: "l" },
         { r: /^17blackswan$/i, s: "<space>" },
-        { r: /^18trailblazerkrbasic$/i, s: "a" },
+        { r: /^18trailblazerkrbasic(attack)*$/i, s: "a" },
         { r: /^19bladekr$/i, s: "i" },
-        { r: /^20guinaifenen$/i, s: "a" },
+        { r: /^20guinaifenenult(imate)*$/i, s: "a" },
     ],
     [
         { r: /^(rho|zeta)$/i, s: "That's one of the 2 letters" },
@@ -36,7 +36,7 @@ const hints = [
 const congrats = `
 copypasta<br /><br />
 
-A huge thank you to all the voice actors:<br />
+A huge thank you to all the voice actors: :marchhype: <br />
 Necro: Welt & Clara<br />
 Julius: Silverwolf (yes)<br />
 Lightly: Dr Ratio<br />

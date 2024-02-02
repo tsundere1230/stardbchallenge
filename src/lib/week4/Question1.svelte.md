@@ -3,9 +3,10 @@
     export let validate;
 
     import Input from "$lib/Input.svelte";
-    
+    import audio01 from "$lib/assets/week4-01.mp3";
     import audio02 from "$lib/assets/week4-02.mp3";
     import audio03 from "$lib/assets/week4-03.mp3";
+    import audio04 from "$lib/assets/week4-04.mp3";
     import audio05 from "$lib/assets/week4-05.mp3";
     import audio06 from "$lib/assets/week4-06.mp3";
     import audio07 from "$lib/assets/week4-07.mp3";
@@ -15,25 +16,19 @@
     import audio11 from "$lib/assets/week4-11.mp3";
     import audio12 from "$lib/assets/week4-12.mp3";
     import audio13 from "$lib/assets/week4-13.mp3";
+    import audio13 from "$lib/assets/week4-14.mp3";
     import audio15 from "$lib/assets/week4-15.mp3";
     import audio16 from "$lib/assets/week4-16.mp3";
+    import audio13 from "$lib/assets/week4-17.mp3";
     import audio18 from "$lib/assets/week4-18.mp3";
+    import audio13 from "$lib/assets/week4-19.mp3";
+    import audio13 from "$lib/assets/week4-20.mp3";
 
     let audios = [
-      audio02, 
-      audio03,  
-      audio05, 
-      audio06, 
-      audio07, 
-      audio08, 
-      audio09, 
-      audio10, 
-      audio11, 
-      audio12, 
-      audio13, 
-      audio15, 
-      audio16, 
-      audio18
+      audio01, audio02, audio03, audio04, audio05, 
+      audio06, audio07, audio08, audio09, audio10, 
+      audio11, audio12, audio13, audio14, audio15, 
+      audio16, audio17, audio18, audio19, audio20,
     ];
 </script>
 
