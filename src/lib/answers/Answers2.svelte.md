@@ -37,3 +37,30 @@ You can do this for the two end points, creating a triangle like this:
 ![]({cloudfordq2})
 
 Now you can either assume it's a right-angled triangle or use the cosine rule to obtain an answer of approximately $160-170$ meters. Converting to feet and you'll get $540$ ft., and we gave a $\pm15$ ft leeway in both directions.
+
+# Q3
+
+As the instruction tell you, there is an index (number) hidden in each line.
+These are (self)contained in a word from each line.
+
+| Word             | Number    | Letter (index within the word) |
+| ---------------- | --------- | ------------------------------ |
+| Every**one**     | 1 (one)   | e                              |
+| inat**ten**tive  | 10 (ten)  | v                              |
+| w**eight**lessly | 8 (eight) | e                              |
+| unfas**ten**ing  | 10 (ten)  | n                              |
+
+Selecting every even word per line (not overreaching lines):
+
+-   select
+-   peculiar
+-   overreaching
+-   that's
+-   line
+-   index
+-   gracefully
+-   humbly
+-   the
+-   subsequently
+
+The starting letters spell SPOTLIGHTS
