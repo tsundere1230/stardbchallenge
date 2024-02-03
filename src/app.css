@@ -21,3 +21,15 @@
 .markdown ul li {
     @apply ml-10 list-disc;
 }
+
+.markdown table {
+    @apply text-center;
+}
+
+.markdown table th {
+    @apply border px-4 py-2;
+}
+
+.markdown table td {
+    @apply border px-4 py-2;
+}

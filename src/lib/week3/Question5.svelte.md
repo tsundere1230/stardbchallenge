@@ -11,7 +11,9 @@
 
 (This is a challenge from Julius and has nothing to do with anything before :) )
 
-This challenge is pretty hard, so I'm giving you the option to skip. Just type in **`skip`**
+This challenge is pretty hard, so I'm giving you the option to skip. Just type in **`skip`**.
+
+If you do succeed in solving this you get an extra point for the leaderboard ^^
 
 <br>
 

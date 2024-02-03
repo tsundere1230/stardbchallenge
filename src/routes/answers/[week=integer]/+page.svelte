@@ -1,13 +1,8 @@
 <script>
-    // @ts-ignore
-    import Answers1 from "$lib/answers/Answers1.svelte.md";
-    // @ts-ignore
-    // import Answers2 from "$lib/answers/Answers2.svelte.md";
-
     import { page } from "$app/stores";
+    import answers from "$lib/answers/answers";
 
     let week = parseInt($page.params.week) - 1;
-    let answers = [Answers1];
 </script>
 
 {#if week < answers.length}
