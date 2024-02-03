@@ -21,7 +21,7 @@ _Over 3,500 Amber Eras ago, in the Xianzhou, reigned Emperor Shang. At the end o
 
 **To join into the festivities, please reply to this invitation with the correct answer:**
 
-$\frac{The Year After The Most Recent 💧 🐀}{(The Next 🔥 🐍 Year) + (The Next 🌎 Year After The Next 🌎 🐓)}$ x [Upcoming 🤘🐕] + [The 🐅 Position] + 1000
+$\frac{The Year After The Most Recent 💧 🐀}{(The Next 🔥 🐍 Year) + (The Next 🌎 Year After The Next 🌎 🐓)}$ x [Upcoming 🤘🐕] + [The 🐅 Position] + 999
 
 **Ignore decimals. What is the resulting year? Answer in the following format: [Element][Animal][Year]**
 
