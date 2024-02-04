@@ -6,7 +6,7 @@ const hints = [
         { r: /^01weltjpult(imate)*$/i, s: "d" }, //jp bad
         { r: /^02qingquejpult(imate)*$/i, s: "P" },
         { r: /^03danhengcnult(imate)*$/i, s: "m" }, //cn good
-        { r: /^04huohuoen$/i, s: "i" }, //en bad
+        { r: /^04huohuoenbasic(attack)*$/i, s: "i" }, //en bad
         { r: /^05drratioenult(imate)*$/i, s: "<space>" },
         { r: /^06luochakrskill$/i, s: "t" }, //kr good
         { r: /^07hanyacnskill$/i, s: "H" },
@@ -16,7 +16,7 @@ const hints = [
         { r: /^11jingliucnult(imate)*$/i, s: "e" },
         { r: /^12sushangcnult(imate)*$/i, s: "p" },
         { r: /^13topaz&numbyjpbasic(attack)*$/i, s: "l" },
-        { r: /^14clarajp$/i, s: "r" },
+        { r: /^14clarajpskill$/i, s: "r" },
         { r: /^15jingyuancnult(imate)*$/i, s: "a" },
         { r: /^16kafkajpult(imate)*$/i, s: "l" },
         { r: /^17blackswan$/i, s: "<space>" },
