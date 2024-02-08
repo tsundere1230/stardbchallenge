@@ -49,8 +49,6 @@ If you think that audio clip 1 is Caelus's ult in english, please put: "01trailb
 
 The last accepted submission is the final answer, which is caps/space/format/punctuation SENSITIVE.
 
-When you have correctly guessed 8 or more voice lines, open a ticket and show proof to receive an extra hint about the harder ones.
-
 Everything above this line is just information for the challenge.
 
 ---
