@@ -57,7 +57,7 @@
         <table class="w-full">
             <tr class="border-b">
                 <th class="text-left text-galaxy_purple-50 px-4 text-nowrap"
-                    >Completed Challenges</th
+                    >Points</th
                 >
                 <th class="text-left text-galaxy_purple-50 px-4">Challenger</th>
             </tr>
@@ -75,7 +75,7 @@
         <table class="w-full">
             <tr class="border-b">
                 <th class="text-left text-galaxy_purple-50 px-4 text-nowrap"
-                    >Completed Challenges</th
+                    >Points</th
                 >
                 <th class="text-left text-galaxy_purple-50 px-4">Challenger</th>
             </tr>
