@@ -36,20 +36,20 @@
 
 # Question 1/2
 
-Welcome to the Week 4 challenge! This week, the organisers and a group of brave volunteers have each voiced one or more playable characters (up to and (possibly) including Sparkle) in HSR. Each character only appears once in the list. Note that some volunteers do not speak the language they were asked to voice, so please be mindful of that when it comes to pronunciation. Voice acting credits will be given on the congrats page as well as the week 4 answers when they release.
+Welcome to the Week 4 voice acting challenge! Firstly, voice acting credits will be given on the congrats page as well as the week 4 answers when they release. Then, please read the instructions VERY carefully as it contains a lot of hints for the challenge.
 
 A total of 21 submissions are accepted into the answer box below. The format of the first 20 submissions is [2 digit number][character's name][language][voice line type] , where...
 
 -   2 digit number: from 01 to 20 [they were randomised, nothing to do with answer]
--   Name: character's full name without punctuation/spaces (e.g. drratio, danhengimbibitorlunae, topaz&numby)
+-   Name: character's full name without punctuation/spaces (e.g. drratio, danhengimbibitorlunae, topaz&numby). Each character can only appear ONCE on the list!
 -   Language: en/cn/jp/kr
 -   Voice line type: Go figure that out yourself :)
 
-If you think that audio clip 1 is Caelus's ult in english, please put: "01trailblazerenultimate" . Of course, that is an example; Trailblazer is one of the two Korean speakers alongside an Abundance character.
+If you think that audio clip 1 is Caelus's ult in english, please put: "01trailblazerenultimate". Of course, that is an example; Trailblazer is one of the two Korean speakers alongside an Abundance character.
 
-The last accepted submission is the final answer, which is caps/space/format/punctuation SENSITIVE.
+The 21st accepted submission is the final answer, **which is caps/space/format/punctuation sensitive**.
 
-Everything above this line is just information for the challenge.
+Everything above this line is just instructions for the challenge, you don't have to read between the lines/decipher stuff here.
 
 ---
 
