@@ -41,15 +41,15 @@ Welcome to the Week 4 voice acting challenge! Firstly, voice acting credits will
 A total of 21 submissions are accepted into the answer box below. The format of the first 20 submissions is [2 digit number][character's name][language][voice line type] , where...
 
 -   2 digit number: from 01 to 20 [they were randomised, nothing to do with answer]
--   Name: character's full name without punctuation/spaces (e.g. drratio, danhengimbibitorlunae, topaz&numby). Each character can only appear ONCE on the list!
+-   Name: character's EN full name without punctuation/spaces (e.g. drratio, danhengimbibitorlunae, topaz&numby). Each character can only appear ONCE on the list!
 -   Language: en/cn/jp/kr
 -   Voice line type: Go figure that out yourself :)
 
-If you think that audio clip 1 is Caelus's ult in english, please put: "01trailblazerenultimate". Of course, that is an example; Trailblazer is one of the two Korean speakers alongside an Abundance character.
+If you think that audio clip 01 is Caelus's ult in english, please put: "01trailblazerenultimate". Of course, that is an example; Trailblazer is one of the two Korean speakers alongside an Abundance character.
 
 The 21st accepted submission is the final answer, **which is caps/space/format/punctuation sensitive**.
 
-Everything above this line is just instructions for the challenge, you don't have to read between the lines/decipher stuff here.
+Everything above this line is just instructions for the challenge, there is no Julius-level reading in between the lines here.
 
 ---
 
