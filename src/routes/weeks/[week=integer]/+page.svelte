@@ -87,7 +87,7 @@
     </div>
 {:else}
     <p>
-        Well well well. Trying to take a sneak peak at week {$page.params.week} are
+        Well well well. Trying to take a sneak peek at week {$page.params.week} are
         we? :hertaSmug:
     </p>
 {/if}
