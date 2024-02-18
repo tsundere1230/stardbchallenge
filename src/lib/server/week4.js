@@ -37,12 +37,12 @@ const congrats = `
 There is no soul in this god damn universe who can describe how spectacularly erect I am for Fu Xuan. And I'm not even exaggerating. I would be shocked if there is someone out there who can be more erect for Fu Xuan. Heck I stay erect for hours...days even whenever I even think of Fu Xuan. All this pent up frustration because of my erection leads me to furiously masturbate for hours while thinking about aggressively I would fuck Fu Xuan. I masturbated at home, at work, in public wherever you name. I even lost my job when I was masturbating at my work. But despite that, I still masturbate thinking about how I will have sex with Fu Xuan. I even drew Fu Xuan using my own cum and masturbated to that as well. I just cannot stop masturbating. I feel immense anger whenever I see a Fu Xuan x Jing Yuan fan art. But even then, I masturbate to that art...furiously...thinking about how me and Jing Yuan would absolutely fuck the shit out of Fu Xuan with out massive cocks. It's been few months now and I got diagnosed with testicular cancer. But even then, I want to bust all of my cancerous load into Fu Xuan's little cunt. I know my habits are not healthy and I should seek help but no one in this universe deserves to fuck Fu Xuan as much as I do.
 <br /><br />
 
-A huge thank you to all the voice actors: :marchhype: <br />
-Necro: Welt & Clara<br />
+A huge thank you to all the voice actors! :marchhype: <br />
+Necro: Welt and Clara<br />
 Julius: Silverwolf (yes)<br />
 Lightly: Dr Ratio<br />
 Nakfr0g: Pela (yes)<br />
-tsun: Ruan Mei & Black Swan<br />
+tsun: Ruan Mei, Black Swan, and Blade <- i had to sub in for someone and god i regret that<br />
 Zorus: Qingque<br />
 Minimiz: Dan Heng<br />
 Pulsarion: Huohuo<br />
@@ -54,7 +54,6 @@ Kaju: Topaz & Numby<br />
 rzd: Jingyuan<br />
 Pierrot: Kafka<br />
 xRes: Trailblazer<br />
-Stellarr: Blade<br />
 Merper: Guinaifen
 `;
 
