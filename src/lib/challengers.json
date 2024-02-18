@@ -1,33 +1,158 @@
 [
-    { "name": "Celesteeal", "completed": 2 },
-    { "name": "Zorus", "completed": 2 },
-    { "name": "Merper", "completed": 2 },
-    { "name": "Ceonsiune", "completed": 2 },
-    { "name": "Cannoneer", "completed": 2 },
-    { "name": "Jayleaf", "completed": 2 },
-    { "name": "Slimeicecream", "completed": 2 },
-    { "name": "Rzd", "completed": 2 },
-    { "name": "Kaju", "completed": 2 },
-    { "name": "Jinwu Loi", "completed": 2 },
-    { "name": "Megamaple", "completed": 2 },
-    { "name": "Kama", "completed": 2 },
-    { "name": "Keevin", "completed": 2 },
-    { "name": "Junebug", "completed": 2 },
-    { "name": "Soul", "completed": 2 },
-    { "name": "Andiee", "completed": 1 },
-    { "name": "Osablack", "completed": 2 },
-    { "name": "Ghengooni", "completed": 1 },
-    { "name": "Ethanthomas", "completed": 1 },
-    { "name": "Pix", "completed": 2 },
-    { "name": "Arlen", "completed": 1 },
-    { "name": "Unknowngod", "completed": 1 },
-    { "name": "Aza", "completed": 1 },
-    { "name": "Pulsarion", "completed": 1 },
-    { "name": "Neypah Tit", "completed": 1 },
-    { "name": "Minimiz", "completed": 1 },
-    { "name": "Xres", "completed": 1 },
-    { "name": "Jakun", "completed": 1 },
-    { "name": "Mad Scientist", "completed": 1 },
-    { "name": "Emmy", "completed": 1 },
-    { "name": "Pierrot", "completed": 1 }
+    {
+        "name": "Celesteeal",
+        "completed": 3
+    },
+    {
+        "name": "Zorus",
+        "completed": 4
+    },
+    {
+        "name": "Merper",
+        "completed": 4
+    },
+    {
+        "name": "Ceonsiune",
+        "completed": 4
+    },
+    {
+        "name": "Cannoneer",
+        "completed": 4
+    },
+    {
+        "name": "Jayleaf",
+        "completed": 4
+    },
+    {
+        "name": "Slimeicecream",
+        "completed": 4
+    },
+    {
+        "name": "Rzd",
+        "completed": 4
+    },
+    {
+        "name": "Kaju",
+        "completed": 4
+    },
+    {
+        "name": "Jinwu Loi",
+        "completed": 4
+    },
+    {
+        "name": "Megamaple",
+        "completed": 4
+    },
+    {
+        "name": "Kama",
+        "completed": 3
+    },
+    {
+        "name": "Keevin",
+        "completed": 4
+    },
+    {
+        "name": "Junebug",
+        "completed": 4
+    },
+    {
+        "name": "Soul",
+        "completed": 4
+    },
+    {
+        "name": "Andiee",
+        "completed": 2
+    },
+    {
+        "name": "Osablack",
+        "completed": 4
+    },
+    {
+        "name": "Ghengooni",
+        "completed": 1
+    },
+    {
+        "name": "Ethanthomas",
+        "completed": 1
+    },
+    {
+        "name": "Pix",
+        "completed": 2
+    },
+    {
+        "name": "Arlen",
+        "completed": 1
+    },
+    {
+        "name": "Unknowngod",
+        "completed": 2
+    },
+    {
+        "name": "Azatoth",
+        "completed": 3
+    },
+    {
+        "name": "Pulsarion",
+        "completed": 2
+    },
+    {
+        "name": "Neypah Tit",
+        "completed": 1
+    },
+    {
+        "name": "Minimiz",
+        "completed": 2
+    },
+    {
+        "name": "Xres",
+        "completed": 1
+    },
+    {
+        "name": "Jakun",
+        "completed": 1
+    },
+    {
+        "name": "Mad Scientist",
+        "completed": 3
+    },
+    {
+        "name": "Emmy",
+        "completed": 1
+    },
+    {
+        "name": "Pierrot",
+        "completed": 1
+    },
+    {
+        "name": "EliteInferno",
+        "completed": 2
+    },
+    {
+        "name": "Sok0li",
+        "completed": 2
+    },
+    {
+        "name": "MercilessMedic",
+        "completed": 2
+    },
+    {
+        "name": "NUwUN",
+        "completed": 2
+    },
+    {
+        "name": "Merry",
+        "completed": 1
+    },
+    {
+        "name": "Philio",
+        "completed": 1
+    },
+    {
+        "name": "The Mizantrophe",
+        "completed": 1
+    },
+    {
+        "name": "Koolie",
+        "completed": 1
+    }
 ]

@@ -3,8 +3,8 @@ import Answers1 from "$lib/answers/Answers1.svelte.md";
 // @ts-ignore
 import Answers2 from "$lib/answers/Answers2.svelte.md";
 // @ts-ignore
-import Answers4 from "$lib/answers/Answers4.svelte.md";
+import Answers3 from "$lib/answers/Answers3.svelte.md";
 
-const answers = [Answers1, Answers2, Answers4, Answers4];
+const answers = [Answers1, Answers2, Answers3];
 
 export default answers;
