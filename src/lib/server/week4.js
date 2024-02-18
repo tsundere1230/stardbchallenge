@@ -25,7 +25,7 @@ const hints = [
         { r: /^20guinaifenenult(imate)*$/i, s: "[H]appy new year!" },
     ],
     [
-        { r: /^rho|zeta$/i, s: "That's one of the 2 letters" },
+        { r: /^(rho|zeta)$/i, s: "That's one of the 2 letters" },
         {
             r: /^rho\s*zeta|zeta\s*rho$/i,
             s: "There's a pretty famous stone that was used for deciphering egyptian hieroglyphs.<br>I want it's name.",
