@@ -8,6 +8,8 @@ const hints = [
         { r: /^03hanya$/i, s: "i was worried you would not get this one"},
         { r: /^04horus$/i, s: "if you are a year 1 player this birb carried you far" },
         { r: /^05shalom/i, s: "my love...'s love... sigh... always thirdwheeling" },
+        { r: /^05kafka/i, s: "ok youre funny alright!!"},
+        { r: /^05makima/i, s: "ok youre funny alright!!"},
         { r: /^06yuiyagi/i, s: "mahjong good" },
         { r: /^07redhood/i, s: "yes, and i don't play nikke so i apologise if she has alternate names" },
         { r: /^08shizukuhinomori$/i, s: "yes" },
