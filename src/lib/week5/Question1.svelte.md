@@ -24,17 +24,17 @@
     { text: "07: I don't play this game help", src: img07 },
     { text: "08: She has a trillion outfits, good luck", src: img08 },
     { text: "09: The non-genderbent one", src: img09 },
-    { text: "10: Use the spelling with a 'u' if there is ambiguity", src: img10 },
+    { text: "10: Use the spelling with a 'u' if there is ambiguity, and I want full name", src: img10 },
     ];
 </script>
 
 <div class="markdown">
 
 # Question 1
-- Q1 answer format is lower case English letters only, no spaces.
-- Image sources are eitherthe game's fandom wiki, an official art or given on the next page in the challenge.
-- As per request, here is a weekly challenge involving other mobile/gacha games
-- But the final answer is HSR themed!
+As per request, here is a weekly challenge involving other mobile/gacha games. Numbers matter! Enter answers in the form 05kafka if you think the 5th character is Kafka. The final answer is HSR themed!
+
+- Image sources are either the game's fandom wiki, an official art or given on the next page in the challenge.
+
 - When in doubt, given name first, surname last
 
 <div class="grid grid-cols-2">
