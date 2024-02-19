@@ -54,19 +54,17 @@ Everything above this line is just instructions for the challenge, there is no J
 ---
 
 <br>
-
-<p class="!text-center !text-lg">Basically, you will need skill and talent to decipher the speech, ultimately no technique is required. But all of that does not matter in the end. <br><br>
-
-Once you decipher the voice recordings, the number, character and type of voice line no longer matters. Two languages whose letters you should delete, two languages whose letters you should add...<br><br></p>
-
 <p class="!text-center !text-3xl"> Syllogistic Paradox </p>
 
-<p class="!text-center !text-lg"> Your final answer should be two words, capitalised like above.
-The first word is long, and cannot be found in a typical anagram scrambler (suggesting you work with word 2 here). </p>
-
 <p class="!text-center !text-lg">
-  When you are adding letters back, use a certain hint in the challenge to figure out the letters you know where to place first. You should be left with 5 letters that you might be uncertain of the placement of.
-</p>
+  Basically, you will need skill and talent to decipher the speech, ultimately no technique is required. <br><br>
+
+Once you decipher the voice recordings, the number, character and type of voice line no longer matters. Two languages whose letters you should delete, two languages whose letters you should add...<br><br>
+
+Your final answer should be two words, capitalised like above.
+The first word is long, and cannot be found in a typical anagram scrambler (suggesting you work with word 2 here). <br><br>
+
+When you are adding letters back, use a certain hint in the challenge to figure out the letters you know where to place first. You should be left with 5 letters that you might be uncertain of the placement of.
 
 <div class="grid grid-cols-4">
   {#each audios as audio, i}
