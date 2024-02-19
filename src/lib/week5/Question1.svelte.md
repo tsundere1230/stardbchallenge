@@ -18,7 +18,7 @@
     { text: "01: The missing one", src: img01 },
     { text: "02: The one in the mirror", src: img02 },
     { text: "03: The Harmony one", src: img03 },
-    { text: "04: Birb, he's the God of something, but answer his name", src: img04 },
+    { text: "04: Birb, he's the God of something, but answer his one-word name", src: img04 },
     { text: "05: One on the left", src: img05 },
     { text: "06: Advanced QQ", src: img06 },
     { text: "07: I don't play this game help", src: img07 },
