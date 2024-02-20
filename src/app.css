@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Comic Code Ligature';
+    font-family: 'Comic Code Ligatures';
     src: url('/ComicCodeLigatures-Regular.otf');
 }
 
