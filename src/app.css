@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'Comic Code Ligature';
+    src: url('/ComicCodeLigatures-Regular.otf');
+}
+
+* {
+    font-family: 'Comic Code Ligatures'
+}
+
 .markdown h1 {
     @apply text-2xl font-bold text-galaxy_purple-50;
 }
