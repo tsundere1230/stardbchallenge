@@ -80,7 +80,7 @@
                 <p class="fixed bottom-4 right-4">Come back in {$timer}s</p>
             {/if}
         {:else}
-            <div class="text-4xl">
+            <div class="text-4xl leading-relaxed">
                 {@html congrats}
             </div>
         {/if}

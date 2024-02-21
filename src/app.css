@@ -20,7 +20,7 @@
 }
 
 .markdown p {
-    @apply text-lg my-4;
+    @apply text-lg my-4 leading-relaxed;
 }
 
 .markdown ol li {
