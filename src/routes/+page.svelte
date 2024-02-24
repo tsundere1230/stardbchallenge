@@ -19,7 +19,7 @@
     leaderboard.sort((x, y) => y.completed - x.completed);
 </script>
 
-<div class="space-y-10">
+<div class="space-y-10 px-4">
     <h1 class="text-galaxy_purple-250 text-center text-5xl font-bold">
         StarDB Challenges - Season 2
     </h1>

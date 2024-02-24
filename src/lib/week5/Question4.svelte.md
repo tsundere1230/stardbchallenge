@@ -3,7 +3,7 @@
     export let validate;
 
     import Input from "$lib/Input.svelte";
-    import image from "$lib/assets/week5julius1.png";
+    import image from "$lib/assets/week5julius2.png";
 </script>
 
 <div class="markdown">
@@ -12,7 +12,7 @@
 
 <br>
 
-# It's not south korea
+# Top down
 
 ![]({image})
 

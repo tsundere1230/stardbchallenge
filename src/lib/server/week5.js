@@ -1,15 +1,24 @@
-const answers = [/^golden\s*hour$/i, /^firefly$/i];
+const answers = [/^seismo.*$/i, /^golden\s*hour$/i, /^firefly$/i, /^(hachi\s*dan|八段)$/i];
 
 /** @type {  {r: RegExp,  s: string}[][]} */
 const hints = [
     [
+        { r: /^principle(s)?$/i, s: "Normally those are the principles around yin and yang.<br>They also have a different name, telling you how many lines they have :D" },
+        { r: /^trigram(s)?$/i, s: "Trigrams have 3 lines, these ones have 6 :think:.<br>What could their name be?" },
+        { r: /^viewing$/i, s: "You got the first hexagram :D" },
+        { r: /^ground$/i, s: "You got the second hexagram :D" },
+        { r: /^shake$/i, s: "You got the second hexagram :D" },
+        { r: /^force$/i, s: "You got the second hexagram :D" },
+        { r: /^viewing\s*ground\s*shake\s*force$/i, s: "Well with what do you view the ground shake force?" },
+    ],
+    [
         { r: /^01rosa$/i, s: "yes, from tears of themis" },
         { r: /^02coquelic$/i, s: "my love..." },
-        { r: /^03hanya$/i, s: "i was worried you would not get this one"},
+        { r: /^03hanya$/i, s: "i was worried you would not get this one" },
         { r: /^04horus$/i, s: "if you are a year 1 player this birb carried you far" },
         { r: /^05shalom/i, s: "my love...'s love... sigh... always thirdwheeling" },
-        { r: /^05kafka/i, s: "ok youre funny alright!!"},
-        { r: /^05makima/i, s: "ok youre funny alright!!"},
+        { r: /^05kafka/i, s: "ok youre funny alright!!" },
+        { r: /^05makima/i, s: "ok youre funny alright!!" },
         { r: /^06yuiyagi/i, s: "mahjong good" },
         { r: /^07redhood/i, s: "yes, and i don't play nikke so i apologise if she has alternate names" },
         { r: /^08shizukuhinomori$/i, s: "yes" },
@@ -22,6 +31,12 @@ const hints = [
         { r: /^(kusunokitomori)|(tomorikusunoki)$/i, s: "that is Makima.j" },
         { r: /^(yuhye(-)?ji)$/i, s: "that is Yaoyao.k" },
         { r: /^(songyuanyuan|yuanyuansong)$/i, s: "that is Barbara.c" },
+    ],
+    [
+        { r: /^one\s*ok\s*rock$/i, s: "<a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/One_Ok_Rock_discography\">https://en.wikipedia.org/wiki/One_Ok_Rock_discography</a>" },
+        { r: /^change$/i, s: "That's the first track title!<br>Keep this in mind, when trying to get to the final answer" },
+        { r: /^crazy\s*botch$/i, s: "That's the second track title!<br>From now on you should read it as CRAZYBOTCH" },
+        { r: /^be\s*the\s*light$/i, s: "That's the third track title!<br>From now on you should read it as BETHELIGHT" },
     ]
 ];
 
