@@ -12,6 +12,7 @@ const hints = [
         { r: /^viewing\s*ground\s*shake\s*force$/i, s: "Well with what do you view the ground shake force?" },
     ],
     [
+        { r: /^groundhole$/i, s: "NO BRO NOT LIKE THIS"},
         { r: /^01rosa$/i, s: "yes, from tears of themis" },
         { r: /^02coquelic$/i, s: "my love..." },
         { r: /^03hanya$/i, s: "i was worried you would not get this one" },
