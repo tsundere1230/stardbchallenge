@@ -35,7 +35,7 @@ We know the 2nd word is at most 5 letters long, and H is capitalised, incentivis
 
 Using HSR wiki we can unscramble the first word to be Somatotypical.
 
-Special thanks again to all our voice actors:
+Special thanks again to all our voice actors:<br />
 Necro: Welt and Clara<br />
 Julius: Silverwolf (yes)<br />
 Lightly: Dr Ratio<br />
