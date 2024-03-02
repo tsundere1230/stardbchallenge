@@ -5,7 +5,7 @@ const hints = [
     [
         { r: /^principle(s)?$/i, s: "Normally those are the principles around yin and yang.<br>They also have a different name, telling you how many lines they have :D" },
         { r: /^trigram(s)?$/i, s: "Trigrams have 3 lines, these ones have 6 :think:.<br>What could their name be?" },
-        { r: /^hexagram(s)?$/i, s: "Good, now what are their names?" },
+        { r: /^hexagram(s)?$/i, s: "Good, now what are their names? <a target=\"blank\" href=\"https://en.wikipedia.org/wiki/Hexagram_(I_Ching)\">https://en.wikipedia.org/wiki/Hexagram_(I_Ching)</a>" },
         { r: /^viewing$/i, s: "You got the first hexagram :D" },
         { r: /^ground$/i, s: "You got the second hexagram :D" },
         { r: /^shake$/i, s: "You got the third hexagram :D" },
