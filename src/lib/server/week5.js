@@ -5,14 +5,15 @@ const hints = [
     [
         { r: /^principle(s)?$/i, s: "Normally those are the principles around yin and yang.<br>They also have a different name, telling you how many lines they have :D" },
         { r: /^trigram(s)?$/i, s: "Trigrams have 3 lines, these ones have 6 :think:.<br>What could their name be?" },
-        { r: /^hexagram(s)?$/i, s: "Good, now what are their names? <a target=\"blank\" href=\"https://en.wikipedia.org/wiki/Hexagram_(I_Ching)\">https://en.wikipedia.org/wiki/Hexagram_(I_Ching)</a>" },
         { r: /^viewing$/i, s: "You got the first hexagram :D" },
         { r: /^ground$/i, s: "You got the second hexagram :D" },
-        { r: /^shake$/i, s: "You got the third hexagram :D" },
-        { r: /^force$/i, s: "You got the fourth hexagram :D" },
+        { r: /^shake$/i, s: "You got the second hexagram :D" },
+        { r: /^force$/i, s: "You got the second hexagram :D" },
         { r: /^viewing\s*ground\s*shake\s*force$/i, s: "Well with what do you view the ground shake force?" },
     ],
     [
+        { r: /^groundhole$/i, s: "NO BRO NOT LIKE THIS"},
+        { r: /^01vynrichter$/i, s: "no, and, how many MC's are there in ToT?"},
         { r: /^01rosa$/i, s: "yes, from tears of themis" },
         { r: /^02coquelic$/i, s: "my love..." },
         { r: /^03hanya$/i, s: "i was worried you would not get this one" },
