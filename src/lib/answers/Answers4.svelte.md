@@ -1,8 +1,5 @@
-<script>
-
-</script>
-
 # Q1
+
 The voice lines will be listed here:
 01: Welt JP Ult
 02: QQ JP Ult
@@ -57,6 +54,50 @@ Pierrot: Kafka<br />
 xRes: Trailblazer<br />
 Merper: Guinaifen
 
-
-
 # Q2
+
+Listening to each ear you will get
+
+| Left ear    | Right Ear   |
+| ----------- | ----------- |
+| Bailu       | Kafka       |
+| Bailu       | Arlan+Kafka |
+| Bailu       | Arlan+Kafka |
+| Bailu       | Arlan       |
+| Bailu       | Arlan+Bailu |
+| Bailu       | Blade+Bailu |
+| Bailu       | Blade       |
+| Bailu       | Blade+Kafka |
+| Arlan+Bailu | Blade+Kafka |
+| Arlan+Bailu | Kafka       |
+| Arlan       | Blade+Kafka |
+| Arlan       | Kafka       |
+| Arlan+Kafka | Kafka       |
+| Arlan+Kafka | Kafka       |
+| Kafka       | Arlan+Kafka |
+| Kafka       | Arlan       |
+| Blade+Kafka | Arlan       |
+| Blade+Kafka | Arlan       |
+| Blade       | Arlan+Kafka |
+| Blade       | Blade+Kafka |
+| Blade+Bailu | Blade       |
+
+Mapping these to the directions and tracing them gives you
+
+```
+    # # #        #
+  #       #      #   # #
+#         #        #   #
+#         #      #   # #
+#         #      #
+# #       #    #
+#   # # #      #
+#              #
+#              #
+#                # # # #
+#                      #
+                   # #
+```
+
+Which are the greek letter rho and zeta. Since everything was based on translation I was looking
+for the translation stone `rosetta`

@@ -7,8 +7,8 @@ There are $[3]$ Stellaron Hunters.
 
 The probability of no Ruan Mei in 2 pulls is to either:
 
--   Get no 5-stars
--   Get one 5-stars and lose the 50-50
+- Get no 5-stars
+- Get one 5-stars and lose the 50-50
 
 2. There is one way to get no 5-stars: $0.99 \times 0.99$.
 
@@ -39,10 +39,10 @@ IPC is $[300]$ if you are NOT attempting to advance the achievement "Love and th
 Some people found it confusing what the NOT was trying to imply, so that's my bad.<br>
 The Genius Society people are all numbered... we have:<br>
 
--   Yu Qingtu: $[55]$
--   Herta: $[83]$
--   Screwllum: $[76]$
--   Polka: $[4]$
+- Yu Qingtu: $[55]$
+- Herta: $[83]$
+- Screwllum: $[76]$
+- Polka: $[4]$
 
 You will find that<br>
 $CritRate = 5 + x\%$<br>

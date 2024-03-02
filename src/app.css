@@ -42,3 +42,7 @@
 .markdown table td {
     @apply border px-4 py-2;
 }
+
+.markdown pre {
+    @apply p-4 w-fit bg-galaxy_purple-950;
+}

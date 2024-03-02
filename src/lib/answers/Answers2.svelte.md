@@ -52,15 +52,15 @@ These are (self)contained in a word from each line.
 
 Selecting every even word per line (not overreaching lines):
 
--   select
--   peculiar
--   overreaching
--   that's
--   line
--   index
--   gracefully
--   humbly
--   the
--   subsequently
+- select
+- peculiar
+- overreaching
+- that's
+- line
+- index
+- gracefully
+- humbly
+- the
+- subsequently
 
 The starting letters spell SPOTLIGHTS
