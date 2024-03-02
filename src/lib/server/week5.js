@@ -7,8 +7,8 @@ const hints = [
         { r: /^trigram(s)?$/i, s: "Trigrams have 3 lines, these ones have 6 :think:.<br>What could their name be?" },
         { r: /^viewing$/i, s: "You got the first hexagram :D" },
         { r: /^ground$/i, s: "You got the second hexagram :D" },
-        { r: /^shake$/i, s: "You got the second hexagram :D" },
-        { r: /^force$/i, s: "You got the second hexagram :D" },
+        { r: /^shake$/i, s: "You got the third hexagram :D" },
+        { r: /^force$/i, s: "You got the fourth hexagram :D" },
         { r: /^viewing\s*ground\s*shake\s*force$/i, s: "Well with what do you view the ground shake force?" },
     ],
     [
