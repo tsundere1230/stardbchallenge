@@ -37,6 +37,9 @@ const hints = [
     ],
     [
         { r: /^one\s*ok\s*rock$/i, s: "<a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/One_Ok_Rock_discography\">https://en.wikipedia.org/wiki/One_Ok_Rock_discography</a>" },
+        { r: /^eye\s*of\s*the\s*storm$/i, s: "That's the first album!" },
+        { r: /^beam\s*of\s*light$/i, s: "That's the second album!" },
+        { r: /^jinsei\s*.\s*boku.$/i, s: "That's the third album!" },
         { r: /^change$/i, s: "That's the first track title!<br>Keep this in mind, when trying to get to the final answer" },
         { r: /^crazy\s*botch$/i, s: "That's the second track title!<br>From now on you should read it as CRAZYBOTCH" },
         { r: /^be\s*the\s*light$/i, s: "That's the third track title!<br>From now on you should read it as BETHELIGHT" },
