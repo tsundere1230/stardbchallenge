@@ -14,7 +14,7 @@ Please head to the Seclusion Zone. Assuming Skaracabaz is the center of the pola
 
 Radius: $PlayableChars + TeleportablePoints\_{HertaSpaceStation}$ meters.
 
-Angle: $TrailBlazePower*{Max} + \sqrt[3]{TBExpReq*{Lv64-65}}$ in degrees.
+Angle: $TrailBlazePower_{Max} + \sqrt[3]{TBExpReq_{Lv64-65}}$ in degrees.
 
 You can interact with an entity there, and your password is the 4th word it says to you.<br>
 You will be able to validate the radius as well as the angle, but round them to the nearest integer before you validate. (E.g. if you think radius is 2, then just enter 2 into the submission box.)
