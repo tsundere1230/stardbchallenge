@@ -1,41 +1,42 @@
 name: Deploy
 
 on:
-  workflow_dispatch:
+    workflow_dispatch:
 
 jobs:
-  deploy:
-    name: Deploy
-    runs-on: ubuntu-latest
+    deploy:
+        name: Deploy
+        runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout Source Code
-        uses: actions/checkout@v4
+        steps:
+            - name: Checkout Source Code
+              uses: actions/checkout@v4
 
-      - name: Install And Build
-        run: |
-          npm i
-          npm run build
-          mv node_modules build/
-          echo '{"type": "module"}' > build/package.json
-          mv build stardbchallenge-new
+            - name: Install bun
+              uses: oven-sh/setup-bun@v1
 
-      - name: Copy New Files
-        uses: appleboy/scp-action@v0.1.7
-        with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
-          source: stardbchallenge-new
-          target: /root/
+            - name: Install And Build
+              run: |
+                  bun i
+                  bun run build
+                  mv build stardbchallenge-new
 
-      - name: Restart Service
-        uses: appleboy/ssh-action@v1.0.3
-        with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
-          script: |
-            rm -rf stardbchallenge
-            mv stardbchallenge-new stardbchallenge
-            systemctl restart stardbchallenge
+            - name: Copy New Files
+              uses: appleboy/scp-action@v0.1.7
+              with:
+                  host: ${{ secrets.HOST }}
+                  username: ${{ secrets.USERNAME }}
+                  password: ${{ secrets.PASSWORD }}
+                  source: stardbchallenge-new
+                  target: /root/
+
+            - name: Restart Service
+              uses: appleboy/ssh-action@v1.0.3
+              with:
+                  host: ${{ secrets.HOST }}
+                  username: ${{ secrets.USERNAME }}
+                  password: ${{ secrets.PASSWORD }}
+                  script: |
+                      rm -rf stardbchallenge
+                      mv stardbchallenge-new stardbchallenge
+                      systemctl restart stardbchallenge
